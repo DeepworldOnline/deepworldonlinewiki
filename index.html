@@ -1246,184 +1246,819 @@
 
 <!-- ==================== ITEMS PAGE ==================== -->
 <div class="page" id="page-items">
-  <h1><img src="./assets/icons/crystal-purple.png" class="item-icon" alt="Items"> Items & Resources</h1>
-  <p>A comprehensive list of resources, ores, crystals, mushrooms, consumables, containers, fossils, keys, and currency found throughout Deepworld.</p>
+  <h1><img src="./assets/icons/crystal-purple.png" class="item-icon" alt="Items"> Items</h1>
+  <p>A complete reference of all 1320 items in Deepworld, organized by category. Data sourced from the archived deepworldgame.com items page (2016).</p>
 
-  <!-- ITEM CATEGORY GRID -->
-  <div class="item-cat-grid">
-    <div class="item-cat-card">
-      <img src="./assets/icons/ore-iron.png" alt="Ores">
-      <div class="icc-name">Ores</div>
-      <div class="icc-count">20 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/crystal-red.png" alt="Crystals">
-      <div class="icc-name">Crystals</div>
-      <div class="icc-count">8 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/mush-portabella.png" alt="Mushrooms">
-      <div class="icc-name">Mushrooms</div>
-      <div class="icc-count">10 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/fossil-trex.png" alt="Fossils">
-      <div class="icc-name">Fossils</div>
-      <div class="icc-count">6 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/container-chest.png" alt="Containers">
-      <div class="icc-name">Containers</div>
-      <div class="icc-count">9 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/bomb-standard.png" alt="Bombs">
-      <div class="icc-name">Bombs</div>
-      <div class="icc-count">9 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/consume-canister.png" alt="Consumables">
-      <div class="icc-name">Consumables</div>
-      <div class="icc-count">12 types</div>
-    </div>
-    <div class="item-cat-card">
-      <img src="./assets/icons/key-skeleton.png" alt="Keys">
-      <div class="icc-name">Keys</div>
-      <div class="icc-count">4 types</div>
-    </div>
+  <!-- CATEGORY NAVIGATION -->
+  <div class="item-cat-nav">
+    <a href="#cat-accessories">Accessories</a>
+    <a href="#cat-building">Building</a>
+    <a href="#cat-consumables">Consumables</a>
+    <a href="#cat-containers">Containers</a>
+    <a href="#cat-tools">Tools & Weapons</a>
+    <a href="#cat-mechanical">Mechanical</a>
+    <a href="#cat-furniture">Furniture</a>
+    <a href="#cat-industrial">Industrial</a>
+    <a href="#cat-lighting">Lighting</a>
+    <a href="#cat-vegetation">Vegetation</a>
+    <a href="#cat-signs">Signs</a>
+    <a href="#cat-music">Music</a>
+    <a href="#cat-parts">Parts</a>
+    <a href="#cat-shields">Shields</a>
+    <a href="#cat-ground">Ground & Ores</a>
+    <a href="#cat-liquid">Liquid</a>
+    <a href="#cat-rubble">Rubble</a>
+    <a href="#cat-holiday">Holiday</a>
+    <a href="#cat-biome">Biome Items</a>
+    <a href="#cat-machines">Machines</a>
+    <a href="#cat-backdrop">Backdrops</a>
+    <a href="#cat-cosmetics">Cosmetics</a>
+    <a href="#cat-misc">Miscellaneous</a>
   </div>
 
-  <h2><img src="./assets/icons/ore-iron.png" class="item-icon" alt=""> Ores</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Ore</th><th>Rarity</th><th>Found In</th><th>Uses</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/ore-copper.png" class="item-icon" alt="">Copper</td><td>Common</td><td>Near surface, all biomes</td><td>Copper blocks, crafted into Brass</td></tr>
-      <tr><td><img src="./assets/icons/ore-iron.png" class="item-icon" alt="">Iron</td><td>Common</td><td>All biomes</td><td>Weapons, tools, crafting</td></tr>
-      <tr><td><img src="./assets/icons/ore-zinc.png" class="item-icon" alt="">Zinc</td><td>Common</td><td>All biomes</td><td>Combined with Copper to make Brass</td></tr>
-      <tr><td><img src="./assets/icons/ore-brass.png" class="item-icon" alt="">Brass</td><td>Processed</td><td>Copper + Zinc (smelting)</td><td>Weapons, machines, accessories</td></tr>
-      <tr><td><img src="./assets/icons/ore-quartz.png" class="item-icon" alt="">Quartz</td><td>Moderate</td><td>All biomes</td><td><img src="./assets/icons/weapon-tesla-club.png" class="item-icon-sm" alt="">Tesla Club, <img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">Androids</td></tr>
-      <tr><td><img src="./assets/icons/ore-lead.png" class="item-icon" alt="">Lead</td><td>Moderate</td><td>Various</td><td>Crafting</td></tr>
-      <tr><td><img src="./assets/icons/ore-sulfur.png" class="item-icon" alt="">Sulfur</td><td>Moderate</td><td>Various</td><td>Crafting</td></tr>
-      <tr><td class="rarity-rare"><img src="./assets/icons/ore-diamond.png" class="item-icon" alt="">Diamond</td><td>Rare</td><td>Arctic only</td><td>Diamond-tier tools, weapons, kits</td></tr>
-      <tr><td class="rarity-rare"><img src="./assets/icons/ore-beryllium.png" class="item-icon" alt="">Beryllium</td><td>Rare</td><td>Desert only</td><td>Energy weapons, upgrade kits</td></tr>
-      <tr><td class="rarity-epic"><img src="./assets/icons/ore-onyx.png" class="item-icon" alt="">Onyx</td><td>Super Rare</td><td>Any biome (rare)</td><td>Onyx-tier gear, currency</td></tr>
-      <tr><td class="rarity-legendary"><img src="./assets/icons/ore-platinum.png" class="item-icon" alt="">Platinum</td><td>Very Rare</td><td>Space only</td><td>Platinum-tier tools</td></tr>
-      <tr><td><img src="./assets/icons/ore-bloodstone.png" class="item-icon" alt="">Bloodstone</td><td>Rare</td><td>Hell biome</td><td>Special crafting, figurines</td></tr>
-      <tr><td><img src="./assets/icons/ore-marble.png" class="item-icon" alt="">Marble</td><td>Rare</td><td>Various</td><td>Special crafting, figurines</td></tr>
-      <tr><td><img src="./assets/icons/ore-wood.png" class="item-icon" alt="">Wood</td><td>Common</td><td>Trees</td><td>Basic building, tool handles</td></tr>
-      <tr><td><img src="./assets/icons/ore-dirt.png" class="item-icon" alt="">Dirt/Earth</td><td>Common</td><td>Surface</td><td>Composter ingredient</td></tr>
-      <tr><td><img src="./assets/icons/ore-stone.png" class="item-icon" alt="">Stone</td><td>Common</td><td>All biomes</td><td>Building</td></tr>
-      <tr><td><img src="./assets/icons/ore-sand.png" class="item-icon" alt="">Sand</td><td>Common</td><td>Desert, beaches</td><td>Building</td></tr>
-      <tr><td><img src="./assets/icons/ore-salt.png" class="item-icon" alt="">Salt</td><td>Common</td><td>Various</td><td>Crafting</td></tr>
-      <tr><td><img src="./assets/icons/ore-resin.png" class="item-icon" alt="">Resin</td><td>Common</td><td>Trees (byproduct)</td><td>Fine-tier crafting</td></tr>
-      <tr><td><img src="./assets/icons/ore-flax.png" class="item-icon" alt="">Flax</td><td>Common</td><td>Surface</td><td>Textile crafting</td></tr>
-    </tbody>
-  </table>
-
-  <h2><img src="./assets/icons/crystal-red.png" class="item-icon" alt=""> Crystals</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Crystal</th><th>Found In</th><th>Uses</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/crystal-green.png" class="item-icon" alt="">Green Crystal</td><td>Temperate biome</td><td>Various crafting</td></tr>
-      <tr><td><img src="./assets/icons/crystal-blue.png" class="item-icon" alt="">Blue Crystal</td><td>Arctic biome</td><td>Steam weapons, items</td></tr>
-      <tr><td><img src="./assets/icons/crystal-yellow.png" class="item-icon" alt="">Yellow Crystal</td><td>Desert biome</td><td>Various crafting</td></tr>
-      <tr><td><img src="./assets/icons/crystal-red.png" class="item-icon" alt="">Red Crystal</td><td>Various</td><td>Weapons (fire, frost, acid, energy)</td></tr>
-      <tr><td><img src="./assets/icons/crystal-purple.png" class="item-icon" alt="">Purple Crystal</td><td>Various</td><td><img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">Androids, advanced crafting</td></tr>
-      <tr><td><img src="./assets/icons/crystal-white.png" class="item-icon" alt="">White Crystal</td><td>Various</td><td><img src="./assets/icons/misc-protector.png" class="item-icon-sm" alt="">Protector crafting</td></tr>
-      <tr><td><img src="./assets/icons/crystal-orange.png" class="item-icon" alt="">Orange Crystal</td><td>Various</td><td>Crafting</td></tr>
-      <tr><td><img src="./assets/icons/crystal-rainbow.png" class="item-icon" alt="">Rainbow Crystal</td><td>Rare</td><td>Special crafting</td></tr>
-    </tbody>
-  </table>
-
-  <h2>Mushrooms</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Mushroom</th><th>Biome</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/mush-portabella.png" class="item-icon" alt="">Portabella</td><td>Temperate, Desert, Arctic</td></tr>
-      <tr><td><img src="./assets/icons/mush-oyster.png" class="item-icon" alt="">Oyster</td><td>Temperate, Desert, Arctic</td></tr>
-      <tr><td><img src="./assets/icons/mush-porcini.png" class="item-icon" alt="">Porcini</td><td>Temperate, Desert, Arctic</td></tr>
-      <tr><td><img src="./assets/icons/mush-willow.png" class="item-icon" alt="">Willow</td><td>Temperate</td></tr>
-      <tr><td><img src="./assets/icons/mush-amanita.png" class="item-icon" alt="">Amanita</td><td>Temperate</td></tr>
-      <tr><td><img src="./assets/icons/mush-chanterelle.png" class="item-icon" alt="">Chanterelle</td><td>Temperate, Desert, Arctic</td></tr>
-      <tr><td><img src="./assets/icons/mush-morel.png" class="item-icon" alt="">Morel</td><td>Temperate, Desert</td></tr>
-      <tr><td><img src="./assets/icons/mush-acid.png" class="item-icon" alt="">Acid Mushroom</td><td>Temperate, Desert</td></tr>
-      <tr><td><img src="./assets/icons/mush-anbaric.png" class="item-icon" alt="">Anbaric Mushroom</td><td>Desert</td></tr>
-      <tr><td><img src="./assets/icons/mush-arctic.png" class="item-icon" alt="">Arctic Mushroom</td><td>Arctic</td></tr>
-    </tbody>
-  </table>
-
-  <h2><img src="./assets/icons/consume-canister.png" class="item-icon" alt=""> Consumables</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Item</th><th>Effect</th><th>Source</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/container-jar-water.png" class="item-icon" alt="">Jar of Water</td><td>Restores hydration (Desert)</td><td>Fill jar at water source</td></tr>
-      <tr><td><img src="./assets/icons/container-jar-acid.png" class="item-icon" alt="">Jar of Acid</td><td><img src="./assets/icons/weapon-acid-cannon.png" class="item-icon-sm" alt="">Acid Cannon ingredient</td><td>Collect from acid pools</td></tr>
-      <tr><td><img src="./assets/icons/consume-jerky.png" class="item-icon" alt="">Jerky</td><td>Restores HP</td><td>Survival 2 crafting</td></tr>
-      <tr><td><img src="./assets/icons/consume-jerky-power.png" class="item-icon" alt="">Power Jerky</td><td>Enhanced HP restoration</td><td>Survival 3 crafting</td></tr>
-      <tr><td><img src="./assets/icons/consume-canister.png" class="item-icon" alt="">Canister</td><td>Restores steam</td><td>Loot from containers, mobs</td></tr>
-      <tr><td><img src="./assets/icons/consume-filet.png" class="item-icon" alt="">Filet</td><td>Food item</td><td>Fish processing</td></tr>
-      <tr><td><img src="./assets/icons/consume-tea.png" class="item-icon" alt="">Tea</td><td>Buff item</td><td>Crafting</td></tr>
-      <tr><td><img src="./assets/icons/consume-chocolate.png" class="item-icon" alt="">Chocolate</td><td>Special consumable</td><td>Loot</td></tr>
-      <tr><td><img src="./assets/icons/consume-brainwine.png" class="item-icon" alt="">Brainwine</td><td>Special consumable</td><td>Wine Press</td></tr>
-      <tr><td><img src="./assets/icons/consume-cloak.png" class="item-icon" alt="">Stealth Cloak</td><td>Temporary invisibility</td><td>Loot, crafting</td></tr>
-      <tr><td><img src="./assets/icons/consume-heart.png" class="item-icon" alt="">Heart</td><td>Health restoration</td><td>Loot</td></tr>
-      <tr><td><img src="./assets/icons/consume-gift.png" class="item-icon" alt="">Gift</td><td>Random item</td><td>Events, loot</td></tr>
-    </tbody>
-  </table>
-
-  <h2><img src="./assets/icons/container-chest.png" class="item-icon" alt=""> Containers</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Container</th><th>Notes</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/container-chest.png" class="item-icon" alt="">Chest / Large Chest</td><td>Standard storage</td></tr>
-      <tr><td><img src="./assets/icons/container-chest-mech.png" class="item-icon" alt="">Mechanical Chest</td><td>Found in dungeon airships</td></tr>
-      <tr><td><img src="./assets/icons/container-barrel.png" class="item-icon" alt="">Barrel</td><td>Various barrel types</td></tr>
-      <tr><td><img src="./assets/icons/container-sack.png" class="item-icon" alt="">Sack</td><td>Sack storage variants</td></tr>
-      <tr><td><img src="./assets/icons/container-crate.png" class="item-icon" alt="">Crate</td><td>Green crates contain <img src="./assets/icons/machine-purifier.png" class="item-icon-sm" alt="">Purifier parts</td></tr>
-      <tr><td><img src="./assets/icons/container-pandora.png" class="item-icon" alt="">Pandora Box</td><td>Special reward pools, spawns <img src="./assets/icons/mob-brain-dire.png" class="item-icon-sm" alt="">Dire Adult Brain</td></tr>
-      <tr><td><img src="./assets/icons/container-jar.png" class="item-icon" alt="">Jar</td><td>Empty jar, fill with water or acid</td></tr>
-      <tr><td><img src="./assets/icons/container-jar-water.png" class="item-icon" alt="">Jar of Water</td><td>Hydration in Desert</td></tr>
-      <tr><td><img src="./assets/icons/container-jar-acid.png" class="item-icon" alt="">Jar of Acid</td><td>Used in <img src="./assets/icons/weapon-acid-cannon.png" class="item-icon-sm" alt="">Acid Cannon recipe</td></tr>
-    </tbody>
-  </table>
-
-  <h2><img src="./assets/icons/key-standard.png" class="item-icon" alt=""> Keys</h2>
-  <div class="key-grid">
-    <div class="key-item"><img src="./assets/icons/key-standard.png" class="item-icon" alt=""><div class="key-info"><div class="key-name">Standard Key</div><div class="key-desc">Opens locked chests and standard containers.</div></div></div>
-    <div class="key-item"><img src="./assets/icons/key-clown.png" class="item-icon" alt=""><div class="key-info"><div class="key-name">Clown Key</div><div class="key-desc">Opens clown-themed containers with cosmetic loot.</div></div></div>
-    <div class="key-item"><img src="./assets/icons/key-lizard.png" class="item-icon" alt=""><div class="key-info"><div class="key-name">Lizard Key</div><div class="key-desc">Opens lizard-themed containers with special rewards.</div></div></div>
-    <div class="key-item"><img src="./assets/icons/key-skeleton.png" class="item-icon" alt=""><div class="key-info"><div class="key-name">Skeleton Key</div><div class="key-desc">Opens skeleton containers with rare bone items.</div></div></div>
+  <div class="item-section" id="cat-accessories">
+    <h2><img src="./assets/icons/acc-steampack.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Accessories <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(65 items)</span></h2>
+    <p class="item-section-note">Equippable items that grant special abilities. Worn in the accessory slot.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-steampack.png" class="item-icon-sm" alt=""></td><td>Steampack</td><td class="iid">accessories/jetpack</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1060</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-steampack.png" class="item-icon-sm" alt=""></td><td>Power Steampack</td><td class="iid">accessories/jetpack-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1062</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-steampack.png" class="item-icon-sm" alt=""></td><td>Diamond Steampack</td><td class="iid">accessories/jetpack-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1069</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-steampack.png" class="item-icon-sm" alt=""></td><td>Onyx Steampack</td><td class="iid">accessories/jetpack-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1061</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-steampack.png" class="item-icon-sm" alt=""></td><td>Aquapack</td><td class="iid">accessories/aquapack-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1011</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-flashlight.png" class="item-icon-sm" alt=""></td><td>Brass Flashlight</td><td class="iid">accessories/flashlight-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1054</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-flashlight.png" class="item-icon-sm" alt=""></td><td>Diamond Flashlight</td><td class="iid">accessories/flashlight-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1093</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-flashlight.png" class="item-icon-sm" alt=""></td><td>Onyx Flashlight</td><td class="iid">accessories/flashlight-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1058</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt=""></td><td>Mining Gloves</td><td class="iid">accessories/glove</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1066</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt=""></td><td>Diamond Mining Gloves</td><td class="iid">accessories/glove-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1094</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt=""></td><td>Onyx Mining Gloves</td><td class="iid">accessories/glove-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1067</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-boot-brass.png" class="item-icon-sm" alt=""></td><td>Power Boot</td><td class="iid">accessories/agility-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1147</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-boot-diamond.png" class="item-icon-sm" alt=""></td><td>Diamond Boot</td><td class="iid">accessories/agility-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1148</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-boot-onyx.png" class="item-icon-sm" alt=""></td><td>Onyx Boot</td><td class="iid">accessories/agility-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1149</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-knife.png" class="item-icon-sm" alt=""></td><td>Survival Knife</td><td class="iid">accessories/army-knife</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1064</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-lockpick.png" class="item-icon-sm" alt=""></td><td>Lockpick</td><td class="iid">accessories/lockpick</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1239</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-battery.png" class="item-icon-sm" alt=""></td><td>Battery</td><td class="iid">accessories/battery</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1073</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-breathing.png" class="item-icon-sm" alt=""></td><td>Rebreather</td><td class="iid">accessories/breathing-apparatus</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1127</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-clover.png" class="item-icon-sm" alt=""></td><td>Clover</td><td class="iid">accessories/clover</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1048</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-horseshoe.png" class="item-icon-sm" alt=""></td><td>Horseshoe</td><td class="iid">accessories/horseshoe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1049</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-rabbitfoot.png" class="item-icon-sm" alt=""></td><td>Rabbitfoot</td><td class="iid">accessories/rabbitfoot</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1051</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt=""></td><td>Rake</td><td class="iid">accessories/rake</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">278</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt=""></td><td>Diamond Rake</td><td class="iid">accessories/rake-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">279</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt=""></td><td>Onyx Rake</td><td class="iid">accessories/rake-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">291</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-scope-brass.png" class="item-icon-sm" alt=""></td><td>Power Scope</td><td class="iid">accessories/scope-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">437</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-schematic.png" class="item-icon-sm" alt=""></td><td>Schematic</td><td class="iid">accessories/schematic</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1070</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-seashell.png" class="item-icon-sm" alt=""></td><td>Seashell</td><td class="iid">accessories/seashell</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1046</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt=""></td><td>Shillings</td><td class="iid">accessories/shillings</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">333</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt=""></td><td>Stopwatch</td><td class="iid">accessories/stopwatch</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1056</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-toolbelt.png" class="item-icon-sm" alt=""></td><td>Toolbelt</td><td class="iid">accessories/toolbelt</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1129</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-whistle.png" class="item-icon-sm" alt=""></td><td>Constable Whistle</td><td class="iid">accessories/whistle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1191</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-exoskin.png" class="item-icon-sm" alt=""></td><td>Exo Skin</td><td class="iid">accessories/exo-skin</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1126</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-makeup.png" class="item-icon-sm" alt=""></td><td>Makeup Kit</td><td class="iid">accessories/makeup</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1016</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-compressor.png" class="item-icon-sm" alt=""></td><td>Compressor</td><td class="iid">accessories/compressor-basic</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1055</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-compressor.png" class="item-icon-sm" alt=""></td><td>Power Compressor</td><td class="iid">accessories/compressor</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1079</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Dowsing Rod</td><td class="iid">accessories/dowsing-rod</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1192</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Key</td><td class="iid">accessories/key</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1072</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Clown Key</td><td class="iid">accessories/key-clown</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1075</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Lizard Key</td><td class="iid">accessories/key-lizard</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1076</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Skeleton Key</td><td class="iid">accessories/key-skeleton</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1077</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Automata Interface Unit</td><td class="iid">accessories/interface</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1068</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Butler Directive Unit</td><td class="iid">accessories/program</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1071</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sprocket</td><td class="iid">accessories/sprocket</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1021</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Widget</td><td class="iid">accessories/widget</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1022</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Android Memory Unit</td><td class="iid">accessories/memory</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1098</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt=""></td><td>Pocketwatch</td><td class="iid">accessories/pocketwatch</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1047</td></tr>
+      </tbody>
+    </table>
   </div>
 
-  <h2>Fossils</h2>
-  <div class="fossil-grid">
-    <div class="fossil-card"><img src="./assets/icons/fossil-fish.png" class="item-icon-lg" alt="Fish Fossil"><div class="fossil-name">Fish Fossil</div></div>
-    <div class="fossil-card"><img src="./assets/icons/fossil-mammoth.png" class="item-icon-lg" alt="Mammoth Fossil"><div class="fossil-name">Mammoth Fossil</div></div>
-    <div class="fossil-card"><img src="./assets/icons/fossil-pterodactyl.png" class="item-icon-lg" alt="Pterodactyl Fossil"><div class="fossil-name">Pterodactyl Fossil</div></div>
-    <div class="fossil-card"><img src="./assets/icons/fossil-trex.png" class="item-icon-lg" alt="T-Rex Fossil"><div class="fossil-name">T-Rex Fossil</div></div>
-    <div class="fossil-card"><img src="./assets/icons/fossil-trilobyte.png" class="item-icon-lg" alt="Trilobyte Fossil"><div class="fossil-name">Trilobyte Fossil</div></div>
-    <div class="fossil-card"><img src="./assets/icons/fossil-shell.png" class="item-icon-lg" alt="Shell Fossil"><div class="fossil-name">Shell Fossil</div></div>
+  <div class="item-section" id="cat-building">
+    <h2>Building <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(112 items)</span></h2>
+    <p class="item-section-note">Construction blocks, doors, bridges, ladders, fences, and structural elements.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-stone.png" class="item-icon-sm" alt=""></td><td>Stone Block</td><td class="iid">building/stone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">615</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt=""></td><td>Wood</td><td class="iid">building/wood</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">600</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt=""></td><td>Wood Block</td><td class="iid">building/wood-board</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">601</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Red Brick</td><td class="iid">building/brick</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">608</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Blue Brick</td><td class="iid">building/brick-blue</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">629</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mixed Brick</td><td class="iid">building/brick-mixed</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">627</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tan Brick</td><td class="iid">building/brick-tan</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">628</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-marble.png" class="item-icon-sm" alt=""></td><td>Marble Block</td><td class="iid">building/marble</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">617</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-marble.png" class="item-icon-sm" alt=""></td><td>Marble Column</td><td class="iid">building/marble-column</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">618</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-brass.png" class="item-icon-sm" alt=""></td><td>Brass Block</td><td class="iid">building/brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">650</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-brass.png" class="item-icon-sm" alt=""></td><td>Reinforced Brass Block</td><td class="iid">building/brass-reinforced</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">652</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt=""></td><td>Iron Block</td><td class="iid">building/iron</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">660</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-copper.png" class="item-icon-sm" alt=""></td><td>Copper Block</td><td class="iid">building/copper</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">670</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-sand.png" class="item-icon-sm" alt=""></td><td>Sandstone Brick</td><td class="iid">building/sandstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">658</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Limestone Brick</td><td class="iid">building/limestone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">659</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Glass Block</td><td class="iid">building/glass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">599</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pitch</td><td class="iid">building/pitch</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">609</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/crystal-blue.png" class="item-icon-sm" alt=""></td><td>Blue Crystal Block</td><td class="iid">building/crystal-blue</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">604</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/crystal-purple.png" class="item-icon-sm" alt=""></td><td>Purple Crystal Block</td><td class="iid">building/crystal-purple</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">606</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Red Crystal Block</td><td class="iid">building/crystal-red</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">605</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-bloodstone.png" class="item-icon-sm" alt=""></td><td>Bloodstone Block</td><td class="iid">building/bloodstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">616</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Door</td><td class="iid">building/door-wood</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">610</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Door</td><td class="iid">building/door-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">654</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Trapdoor</td><td class="iid">building/trapdoor-wood</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">614</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Trapdoor</td><td class="iid">building/trapdoor-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">657</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Ladder</td><td class="iid">building/ladder-wood</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">612</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Ladder</td><td class="iid">building/ladder-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">656</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Rope Ladder</td><td class="iid">building/ladder-rope</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">500</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Rope</td><td class="iid">building/rope</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">501</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Iron Fence</td><td class="iid">building/fence-iron-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">665</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Fence</td><td class="iid">building/fence-wood-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">671</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Metal Bridge</td><td class="iid">building/bridge</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">634</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Bridge</td><td class="iid">building/bridge-wood</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">680</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Staircase</td><td class="iid">building/staircase</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">655</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Roofing</td><td class="iid">building/roof</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">620</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mailbox</td><td class="iid">building/mailbox</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">653</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Balloon</td><td class="iid">building/balloon</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">607</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Chain</td><td class="iid">building/chain</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">661</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Scarecrow</td><td class="iid">building/scarecrow</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">676</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tinman</td><td class="iid">building/tinman</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">677</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Orator Figurine</td><td class="iid">building/statue-figurine-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">305</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gothic Statue</td><td class="iid">building/statue-gothic-front</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">648</td></tr>
+      </tbody>
+    </table>
   </div>
 
-  <h2><img src="./assets/icons/acc-shillings.png" class="item-icon" alt=""> Currency</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Currency</th><th>Use</th><th>Source</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/misc-crown.png" class="item-icon" alt="">Crowns</td><td>Standard currency for purchases</td><td>Trading, shops</td></tr>
-      <tr><td class="rarity-epic"><img src="./assets/icons/ore-onyx.png" class="item-icon" alt="">Onyx</td><td>Rare currency for valuable items</td><td>Mining (rare)</td></tr>
-      <tr><td class="rarity-legendary"><img src="./assets/icons/acc-shillings.png" class="item-icon" alt="">Shillings</td><td>Android trading (Barter skill)</td><td>Brain kills, loot</td></tr>
-    </tbody>
-  </table>
+  <div class="item-section" id="cat-consumables">
+    <h2><img src="./assets/icons/consume-heart.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Consumables <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(19 items)</span></h2>
+    <p class="item-section-note">Single-use items: food, drinks, power-ups, and special effects.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-heart.png" class="item-icon-sm" alt=""></td><td>Heart</td><td class="iid">consumables/heart</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1057</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-jerky.png" class="item-icon-sm" alt=""></td><td>Jerky</td><td class="iid">consumables/jerky</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1131</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-jerky-power.png" class="item-icon-sm" alt=""></td><td>Power Jerky</td><td class="iid">consumables/jerky-power</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1132</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-tea.png" class="item-icon-sm" alt=""></td><td>Tea</td><td class="iid">consumables/tea</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1130</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-filet.png" class="item-icon-sm" alt=""></td><td>Filet</td><td class="iid">consumables/filet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1145</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-filet.png" class="item-icon-sm" alt=""></td><td>Power Filet</td><td class="iid">consumables/filet-fire</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1146</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-brainwine.png" class="item-icon-sm" alt=""></td><td>Brain Wine</td><td class="iid">consumables/brain-wine</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1128</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-cloak.png" class="item-icon-sm" alt=""></td><td>Stealth Cloak</td><td class="iid">consumables/cloak</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1136</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-canister.png" class="item-icon-sm" alt=""></td><td>Canister</td><td class="iid">consumables/canister</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1134</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-gift.png" class="item-icon-sm" alt=""></td><td>Premium Gift</td><td class="iid">consumables/gift</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1099</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Portable Teleporter</td><td class="iid">consumables/teleporter</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1135</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>World Key</td><td class="iid">consumables/world-key</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1074</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-upgrade-diamond.png" class="item-icon-sm" alt=""></td><td>Diamond Weapon Kit</td><td class="iid">consumables/weapon-upgrade-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1143</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/consume-upgrade-onyx.png" class="item-icon-sm" alt=""></td><td>Onyx Weapon Kit</td><td class="iid">consumables/weapon-upgrade-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1144</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Skill Reset</td><td class="iid">consumables/skill-reset</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1017</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Premium Upgrade</td><td class="iid">consumables/premium-upgrade</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1193</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Skill Book</td><td class="iid">consumables/book-skill</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1133</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Name Change</td><td class="iid">consumables/name-change</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1125</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Perfume</td><td class="iid">consumables/perfume</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1137</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-  <h2>Shields</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Shield</th><th>Protection</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/shield-acid.png" class="item-icon" alt="">Acid Shield</td><td>Acid damage reduction</td></tr>
-      <tr><td><img src="./assets/icons/shield-fire.png" class="item-icon" alt="">Fire Shield</td><td>Fire damage reduction</td></tr>
-      <tr><td><img src="./assets/icons/shield-force.png" class="item-icon" alt="">Force Shield</td><td>Force/energy damage reduction</td></tr>
-    </tbody>
-  </table>
+  <div class="item-section" id="cat-containers">
+    <h2><img src="./assets/icons/container-chest.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Containers <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(35 items)</span></h2>
+    <p class="item-section-note">Storage and loot containers found throughout the world.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-chest.png" class="item-icon-sm" alt=""></td><td>Chest</td><td class="iid">containers/chest</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">801</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-chest.png" class="item-icon-sm" alt=""></td><td>Large Chest</td><td class="iid">containers/chest-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">802</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-chest.png" class="item-icon-sm" alt=""></td><td>Industrial Chest</td><td class="iid">containers/chest-industrial</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">803</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-chest.png" class="item-icon-sm" alt=""></td><td>Chest of Plenty</td><td class="iid">containers/chest-plenty</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">804</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-chest-mech.png" class="item-icon-sm" alt=""></td><td>Mechanical Chest</td><td class="iid">containers/chest-mechanical</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">823</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-chest-mech.png" class="item-icon-sm" alt=""></td><td>Large Mechanical Chest</td><td class="iid">containers/chest-mechanical-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">824</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-barrel.png" class="item-icon-sm" alt=""></td><td>Barrel</td><td class="iid">containers/barrel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">805</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-barrel.png" class="item-icon-sm" alt=""></td><td>Tall Barrel</td><td class="iid">containers/barrel-tall</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">806</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-barrel.png" class="item-icon-sm" alt=""></td><td>Mixing Barrel</td><td class="iid">containers/barrel-windowed</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">811</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-crate.png" class="item-icon-sm" alt=""></td><td>Crate</td><td class="iid">containers/crate-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">813</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-crate.png" class="item-icon-sm" alt=""></td><td>Large Crate</td><td class="iid">containers/crate-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">814</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-crate.png" class="item-icon-sm" alt=""></td><td>Industrial Crate</td><td class="iid">containers/crate-industrial-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">816</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-crate.png" class="item-icon-sm" alt=""></td><td>Large Industrial Crate</td><td class="iid">containers/crate-industrial-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">817</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-sack.png" class="item-icon-sm" alt=""></td><td>Sack</td><td class="iid">containers/sack-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">810</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-sack.png" class="item-icon-sm" alt=""></td><td>Large Sack</td><td class="iid">containers/sack-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">812</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-sack.png" class="item-icon-sm" alt=""></td><td>Sack of Plenty</td><td class="iid">containers/sack-plenty</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">403</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-pandora.png" class="item-icon-sm" alt=""></td><td>Pandora's Box</td><td class="iid">containers/pandora</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">808</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-jar.png" class="item-icon-sm" alt=""></td><td>Jar</td><td class="iid">containers/jar</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">876</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-jar-water.png" class="item-icon-sm" alt=""></td><td>Jar of Water</td><td class="iid">containers/jar-water</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">877</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/container-jar-acid.png" class="item-icon-sm" alt=""></td><td>Jar of Acid</td><td class="iid">containers/jar-acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">878</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bucket</td><td class="iid">containers/bucket</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">800</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Cage</td><td class="iid">containers/cage</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">906</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pet Cage</td><td class="iid">containers/cage-pet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">907</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fertilizer</td><td class="iid">containers/fertilizer</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">577</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wine Bottle</td><td class="iid">containers/wine-bottle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">809</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Poison</td><td class="iid">containers/vial-poison</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">410</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wax</td><td class="iid">containers/tin-wax</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">411</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-tools">
+    <h2><img src="./assets/icons/tool-pickaxe.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Tools & Weapons <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(69 items)</span></h2>
+    <p class="item-section-note">Pickaxes, shovels, hammers, ranged weapons, and melee weapons.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-pickaxe.png" class="item-icon-sm" alt=""></td><td>Pickaxe</td><td class="iid">tools/pickaxe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1024</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-pickaxe-fine.png" class="item-icon-sm" alt=""></td><td>Fine Pickaxe</td><td class="iid">tools/pickaxe-fine</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1025</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-pickaxe-diamond.png" class="item-icon-sm" alt=""></td><td>Diamond Pickaxe</td><td class="iid">tools/pickaxe-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1027</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-pickaxe-onyx.png" class="item-icon-sm" alt=""></td><td>Onyx Pickaxe</td><td class="iid">tools/pickaxe-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1026</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-shovel.png" class="item-icon-sm" alt=""></td><td>Shovel</td><td class="iid">tools/shovel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1039</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-shovel.png" class="item-icon-sm" alt=""></td><td>Diamond Shovel</td><td class="iid">tools/shovel-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1040</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-shovel.png" class="item-icon-sm" alt=""></td><td>Onyx Shovel</td><td class="iid">tools/shovel-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1041</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-spade.png" class="item-icon-sm" alt=""></td><td>Spade</td><td class="iid">tools/spade</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">347</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-sledgehammer.png" class="item-icon-sm" alt=""></td><td>Sledgehammer</td><td class="iid">tools/sledgehammer</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1028</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-sledge-diamond.png" class="item-icon-sm" alt=""></td><td>Diamond Sledgehammer</td><td class="iid">tools/sledgehammer-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1043</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-sledge-onyx.png" class="item-icon-sm" alt=""></td><td>Onyx Sledgehammer</td><td class="iid">tools/sledgehammer-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1044</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-hatchet.png" class="item-icon-sm" alt=""></td><td>Hatchet</td><td class="iid">tools/hatchet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1023</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-net.png" class="item-icon-sm" alt=""></td><td>Net</td><td class="iid">tools/net</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1009</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/tool-net.png" class="item-icon-sm" alt=""></td><td>Diamond Net</td><td class="iid">tools/net-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">368</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-rapier.png" class="item-icon-sm" alt=""></td><td>Rapier</td><td class="iid">tools/rapier</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">237</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-rapier-diamond.png" class="item-icon-sm" alt=""></td><td>Diamond Rapier</td><td class="iid">tools/rapier-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">238</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-rapier-onyx.png" class="item-icon-sm" alt=""></td><td>Onyx Rapier</td><td class="iid">tools/rapier-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">239</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-cane.png" class="item-icon-sm" alt=""></td><td>Cane</td><td class="iid">tools/cane</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">365</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-tesla-club.png" class="item-icon-sm" alt=""></td><td>Tesla Club</td><td class="iid">tools/tesla-club</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1045</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-pistol.png" class="item-icon-sm" alt=""></td><td>Pistol</td><td class="iid">tools/pistol</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1033</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-pistol.png" class="item-icon-sm" alt=""></td><td>Pistol Mark II</td><td class="iid">tools/pistol-mk2</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1114</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-pistol.png" class="item-icon-sm" alt=""></td><td>Pistol Mark III</td><td class="iid">tools/pistol-mk3</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1115</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-musket.png" class="item-icon-sm" alt=""></td><td>Musket</td><td class="iid">tools/musket</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1034</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-musket.png" class="item-icon-sm" alt=""></td><td>Musket Mark II</td><td class="iid">tools/musket-mk2</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1116</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-steam-cannon.png" class="item-icon-sm" alt=""></td><td>Steam Cannon</td><td class="iid">tools/gun-steam</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1030</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-steam-pistol.png" class="item-icon-sm" alt=""></td><td>Steam Pistol</td><td class="iid">tools/gun-steam-pistol</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">356</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-acid-cannon.png" class="item-icon-sm" alt=""></td><td>Acid Cannon</td><td class="iid">tools/gun-acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1031</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-flamethrower.png" class="item-icon-sm" alt=""></td><td>Flamethrower</td><td class="iid">tools/gun-flame</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1032</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-flame-pistol.png" class="item-icon-sm" alt=""></td><td>Flame Pistol</td><td class="iid">tools/gun-flame-pistol</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">359</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-frost-cannon.png" class="item-icon-sm" alt=""></td><td>Frost Cannon</td><td class="iid">tools/gun-frost</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1037</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-frost-pistol.png" class="item-icon-sm" alt=""></td><td>Frost Pistol</td><td class="iid">tools/gun-frost-pistol</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">362</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-energy-cannon.png" class="item-icon-sm" alt=""></td><td>Energy Cannon</td><td class="iid">tools/gun-energy</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1038</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/weapon-energy-pistol.png" class="item-icon-sm" alt=""></td><td>Energy Pistol</td><td class="iid">tools/gun-energy-pistol</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1042</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Speargun</td><td class="iid">tools/speargun</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">344</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Blunderbuss</td><td class="iid">tools/blunderbuss</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">353</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Confetti Launcher</td><td class="iid">tools/confetti-launcher</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">350</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-mechanical">
+    <h2><img src="./assets/icons/bomb-standard.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Mechanical <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(127 items)</span></h2>
+    <p class="item-section-note">Protectors, bombs, turrets, switches, teleporters, crafting stations, and automata.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-standard.png" class="item-icon-sm" alt=""></td><td>Bomb</td><td class="iid">mechanical/bomb</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">842</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-big.png" class="item-icon-sm" alt=""></td><td>Big Bomb</td><td class="iid">mechanical/bomb-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">843</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-mega.png" class="item-icon-sm" alt=""></td><td>Mega Bomb</td><td class="iid">mechanical/bomb-mega</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">508</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-acid.png" class="item-icon-sm" alt=""></td><td>Acid Bomb</td><td class="iid">mechanical/bomb-acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">837</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-fire.png" class="item-icon-sm" alt=""></td><td>Fire Bomb</td><td class="iid">mechanical/bomb-incendiary</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">844</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-energy.png" class="item-icon-sm" alt=""></td><td>Electric Bomb</td><td class="iid">mechanical/bomb-electric</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">845</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-lava.png" class="item-icon-sm" alt=""></td><td>Lava Bomb</td><td class="iid">mechanical/bomb-lava</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">838</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-water.png" class="item-icon-sm" alt=""></td><td>Water Bomb</td><td class="iid">mechanical/bomb-water</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">436</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/bomb-dig.png" class="item-icon-sm" alt=""></td><td>Dig Bomb</td><td class="iid">mechanical/bomb-dig</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">836</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Protector</td><td class="iid">mechanical/dish</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">854</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Protector</td><td class="iid">mechanical/dish-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">855</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mega Protector</td><td class="iid">mechanical/dish-mega</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">857</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Giga Protector</td><td class="iid">mechanical/dish-giga</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">909</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Micro Protector</td><td class="iid">mechanical/dish-micro</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">849</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Forge</td><td class="iid">mechanical/forge</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">852</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Furnace</td><td class="iid">mechanical/furnace</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">850</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Engine</td><td class="iid">mechanical/engine</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">851</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Purifier</td><td class="iid">mechanical/geck-tub</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">880</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Composter</td><td class="iid">mechanical/composter-chamber</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">894</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Recycler</td><td class="iid">mechanical/recycler-chamber</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">927</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wine Press</td><td class="iid">mechanical/wine-press</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">863</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Collector</td><td class="iid">mechanical/collector</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">853</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Butler Bot</td><td class="iid">mechanical/butler-brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">820</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Butler Bot</td><td class="iid">mechanical/butler-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">821</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Butler Bot</td><td class="iid">mechanical/butler-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">822</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Teleporter</td><td class="iid">mechanical/teleporter</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">890</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Target Teleporter</td><td class="iid">mechanical/teleporter-mini</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">965</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Spawn Teleporter</td><td class="iid">mechanical/zone-teleporter</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">891</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Switch</td><td class="iid">mechanical/switch</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">931</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Switch</td><td class="iid">mechanical/switch-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">939</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Timed Switch</td><td class="iid">mechanical/switch-timed</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">933</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Touchplate</td><td class="iid">mechanical/touchplate</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">963</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gun Turret</td><td class="iid">mechanical/turret-pistol</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">871</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fire Turret</td><td class="iid">mechanical/turret-fire</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">872</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Acid Turret</td><td class="iid">mechanical/turret-acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">873</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Electric Trap</td><td class="iid">mechanical/trap-electric</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">833</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mine</td><td class="iid">mechanical/trap-mine</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">870</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Spikes</td><td class="iid">mechanical/spikes</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">840</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pipe</td><td class="iid">mechanical/pipe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">860</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Rail</td><td class="iid">mechanical/rail</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">867</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Beacon</td><td class="iid">mechanical/beacon</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">966</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tesla Coil</td><td class="iid">mechanical/tesla-coil</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">999</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mechanical Door</td><td class="iid">mechanical/door</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">930</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Control Panel</td><td class="iid">mechanical/control-panel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">475</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Spawner</td><td class="iid">mechanical/spawner</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">694</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Spawner</td><td class="iid">mechanical/spawner-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">868</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Research Pump</td><td class="iid">mechanical/science-gadget</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">472</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Research Bulb</td><td class="iid">mechanical/science-bulb</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">473</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Chemistry Set</td><td class="iid">mechanical/chemistry-set</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">474</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Compass</td><td class="iid">mechanical/compass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">488</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Telescope</td><td class="iid">mechanical/telescope</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">103</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Toolbox</td><td class="iid">mechanical/toolbox</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">470</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Typewriter</td><td class="iid">mechanical/typewriter</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">997</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Vault</td><td class="iid">mechanical/vault</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">998</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-furniture">
+    <h2>Furniture <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(93 items)</span></h2>
+    <p class="item-section-note">Decorative and functional furniture for building interiors.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bed</td><td class="iid">furniture/bed</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">791</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Canopy Bed</td><td class="iid">furniture/bed-covered</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">792</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bathtub</td><td class="iid">furniture/bathtub</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">777</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Chair</td><td class="iid">furniture/chair-a</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">700</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fine Chair</td><td class="iid">furniture/chair-fine</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">704</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Plush Chair</td><td class="iid">furniture/chair-plush</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">772</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Davenport</td><td class="iid">furniture/davenport</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">706</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fainting Couch</td><td class="iid">furniture/fainting</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">705</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Table</td><td class="iid">furniture/table</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">774</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bookshelf</td><td class="iid">furniture/bookshelf-tall</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">770</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Cabinet</td><td class="iid">furniture/cabinet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">793</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wardrobe</td><td class="iid">furniture/wardrobe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">775</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mirror</td><td class="iid">furniture/mirror</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">790</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Grandfather Clock</td><td class="iid">furniture/grandfather-clock</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">760</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Giant Clock</td><td class="iid">furniture/clock-giant</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">761</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Small Fireplace</td><td class="iid">furniture/fireplace</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">794</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Fireplace</td><td class="iid">furniture/fireplace-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">795</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brazier</td><td class="iid">furniture/brazier</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">796</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Throne</td><td class="iid">furniture/brass-throne</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">799</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Globe</td><td class="iid">furniture/globe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">686</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Easel</td><td class="iid">furniture/easel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">687</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Son of Man</td><td class="iid">furniture/painting-son-of-man</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">756</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Landscape</td><td class="iid">furniture/painting-landscape</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">797</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Stuffed Bear</td><td class="iid">furniture/stuffed-bear</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">689</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Stuffed Terrapus</td><td class="iid">furniture/stuffed-terrapus</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">691</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Deer Head</td><td class="iid">furniture/head-deer</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">780</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Keyring</td><td class="iid">furniture/keyring</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">783</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Map</td><td class="iid">furniture/map</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">807</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Marionette</td><td class="iid">furniture/marionette</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">763</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Market Converter</td><td class="iid">furniture/market</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">129</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ship in a Bottle</td><td class="iid">furniture/ship-in-bottle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">764</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Airship in a Bottle</td><td class="iid">furniture/airship-in-bottle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">693</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Solar System Diorama</td><td class="iid">furniture/solar-system-diorama</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">99</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pet Bowl</td><td class="iid">furniture/pet-bowl</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">768</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wine Rack</td><td class="iid">furniture/wine-rack</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">769</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Scale</td><td class="iid">furniture/scale</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">784</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sink</td><td class="iid">furniture/sink</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">778</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Toilet</td><td class="iid">furniture/toilet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">779</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Companion Cube</td><td class="iid">furniture/companion-cube</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">798</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Monarch Butterfly</td><td class="iid">furniture/butterfly-mounted-monarch</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">695</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-industrial">
+    <h2>Industrial <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(9 items)</span></h2>
+    <p class="item-section-note">Heavy mechanical/steampunk industrial structures.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Conveyor</td><td class="iid">industrial/conveyor</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">402</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Crane</td><td class="iid">industrial/crane</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">406</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Crane</td><td class="iid">industrial/crane-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">408</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Heavy Chain</td><td class="iid">industrial/chain</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">404</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Heavy Chain</td><td class="iid">industrial/chain-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">405</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Vat</td><td class="iid">industrial/vat</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">400</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Acid Vat</td><td class="iid">industrial/vat-acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">401</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Crane Base</td><td class="iid">industrial/crane-base</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">407</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Crane Base</td><td class="iid">industrial/crane-base-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">409</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-lighting">
+    <h2>Lighting <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(18 items)</span></h2>
+    <p class="item-section-note">Torches, lanterns, lamps, streetlights, and candles.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Lantern</td><td class="iid">lighting/lantern</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1100</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Candle</td><td class="iid">lighting/candle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1103</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Candelabra</td><td class="iid">lighting/candlelabra</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1104</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Chandelier</td><td class="iid">lighting/chandelier</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1008</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Floorlamp</td><td class="iid">lighting/floorlamp</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1101</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Streetlight</td><td class="iid">lighting/streetlight</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1102</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Streetlight</td><td class="iid">lighting/streetlight-triple</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">248</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Industrial Light</td><td class="iid">lighting/industrial</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1105</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Light Cord</td><td class="iid">lighting/industrial-cord</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1106</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Grow Lamp</td><td class="iid">lighting/grow-lamp</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1107</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Blue Lamp</td><td class="iid">lighting/fancy-lamp-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">240</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Red Lamp</td><td class="iid">lighting/fancy-lamp-2</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">241</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Tall Lamp</td><td class="iid">lighting/fancy-lamp-3</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">242</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Leg Lamp</td><td class="iid">lighting/fancy-lamp-5</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">244</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Butterfly Lamp</td><td class="iid">lighting/fancy-lamp-6</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">245</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Globe Lamp</td><td class="iid">lighting/fancy-lamp-7</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">246</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Medieval Lamp</td><td class="iid">lighting/fancy-lamp-8</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">247</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Beaded Lamp</td><td class="iid">lighting/fancy-lamp-4</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">243</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-vegetation">
+    <h2><img src="./assets/icons/mush-portabella.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Vegetation <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(79 items)</span></h2>
+    <p class="item-section-note">Trees, flowers, mushrooms, bulbs, pumpkins, and other plants.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pine Tree</td><td class="iid">vegetation/pine-tree</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">578</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Festive Pine Tree</td><td class="iid">vegetation/pine-tree-festive</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">579</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bonsai Tree</td><td class="iid">vegetation/tree-bonsai</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">213</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ghost Tree</td><td class="iid">vegetation/tree-hellish</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">215</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pumpkin</td><td class="iid">vegetation/pumpkin</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">416</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Giant Pumpkin</td><td class="iid">vegetation/pumpkin-giant</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">417</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pumpkin Seed</td><td class="iid">vegetation/pumpkin-seeds</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">415</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Jack-O-Lantern</td><td class="iid">vegetation/jack-o-lantern</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">418</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Cactus</td><td class="iid">vegetation/cactus-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">425</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tumbleweed</td><td class="iid">vegetation/tumbleweed</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">434</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sunflower</td><td class="iid">vegetation/flower-sunflower</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">209</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bird of Paradise</td><td class="iid">vegetation/flower-bird-of-paradise</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">203</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Echinacea</td><td class="iid">vegetation/flower-echinacea</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">207</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Amaryllis</td><td class="iid">vegetation/flower-amaryllis</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">708</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Carnations</td><td class="iid">vegetation/flower-carnations</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">728</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Coxcomb</td><td class="iid">vegetation/flower-coxcomb</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">732</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Delphinium</td><td class="iid">vegetation/flower-delphinium</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">734</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-portabella.png" class="item-icon-sm" alt=""></td><td>Portabella Mushroom</td><td class="iid">vegetation/mushroom-portabella</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">746</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-morel.png" class="item-icon-sm" alt=""></td><td>Morel Mushroom</td><td class="iid">vegetation/mushroom-morel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">744</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-oyster.png" class="item-icon-sm" alt=""></td><td>Oyster Mushroom</td><td class="iid">vegetation/mushroom-oyster</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">745</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-porcini.png" class="item-icon-sm" alt=""></td><td>Porcini Mushroom</td><td class="iid">vegetation/mushroom-porcini</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">747</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-amanita.png" class="item-icon-sm" alt=""></td><td>Amanita Mushroom</td><td class="iid">vegetation/mushroom-amanita</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">730</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-chanterelle.png" class="item-icon-sm" alt=""></td><td>Chanterelle Mushroom</td><td class="iid">vegetation/mushroom-chanterelle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">748</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-willow.png" class="item-icon-sm" alt=""></td><td>Willow Mushroom</td><td class="iid">vegetation/mushroom-willow</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">735</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-acid.png" class="item-icon-sm" alt=""></td><td>Acid Mushroom</td><td class="iid">vegetation/mushroom-acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">741</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-anbaric.png" class="item-icon-sm" alt=""></td><td>Anbaric Mushroom</td><td class="iid">vegetation/mushroom-anbaric</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">743</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/mush-arctic.png" class="item-icon-sm" alt=""></td><td>Arctic Mushroom</td><td class="iid">vegetation/mushroom-arctic</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">751</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Lava Mushroom</td><td class="iid">vegetation/mushroom-lava</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">750</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Infernal Mushroom</td><td class="iid">vegetation/mushroom-hell</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">749</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Apostate Mushroom</td><td class="iid">vegetation/mushroom-apostate</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1167</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Shade Mushroom</td><td class="iid">vegetation/mushroom-shade</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1169</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Devil's Cigar Mushroom</td><td class="iid">vegetation/mushroom-devils-cigar</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1168</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-signs">
+    <h2>Signs <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(21 items)</span></h2>
+    <p class="item-section-note">Signs, plaques, obelisks, and notes for labeling and world events.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Small Wood Sign</td><td class="iid">signs/wood-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">900</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Wood Sign</td><td class="iid">signs/wood-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">910</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Small Iron Sign</td><td class="iid">signs/iron-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">901</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Iron Sign</td><td class="iid">signs/iron-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">911</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Small Copper Sign</td><td class="iid">signs/copper-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">902</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Copper Sign</td><td class="iid">signs/copper-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">912</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Small Brass Sign</td><td class="iid">signs/brass-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">903</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Brass Sign</td><td class="iid">signs/brass-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">913</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Plaque</td><td class="iid">signs/plaque</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">914</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Landmark Plaque</td><td class="iid">signs/plaque-landmark</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">916</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ruby Plaque</td><td class="iid">signs/plaque-ruby</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">399</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mechanical Sign</td><td class="iid">signs/mechanical</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">919</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Obelisk</td><td class="iid">signs/obelisk</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">932</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Spawn Obelisk</td><td class="iid">signs/obelisk-spawn</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">934</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Waypoint</td><td class="iid">signs/obelisk-waypoint</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">953</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Guild Obelisk</td><td class="iid">signs/guild</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">915</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>PvP Obelisk</td><td class="iid">signs/pvp</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">923</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Minigame Obelisk</td><td class="iid">signs/minigame</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">922</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Note</td><td class="iid">signs/note-wall</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">920</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Note</td><td class="iid">signs/note-scrawl</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">921</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Newton Spawn</td><td class="iid">signs/newton</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">199</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-music">
+    <h2>Music <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(8 items)</span></h2>
+    <p class="item-section-note">Musical instruments that can be played to create in-game music.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Piano</td><td class="iid">music/piano</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">832</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Harp</td><td class="iid">music/harp</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">251</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bass Drum</td><td class="iid">music/bass-drum</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">249</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Snare Drum</td><td class="iid">music/snare-drum</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">252</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gong</td><td class="iid">music/gong</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">250</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Phonograph</td><td class="iid">music/phonograph</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">830</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Symphonium</td><td class="iid">music/symphonium</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">831</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Synthesizer</td><td class="iid">music/synthesizer</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">253</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-parts">
+    <h2><img src="./assets/icons/part-gun-barrel.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Parts <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(3 items)</span></h2>
+    <p class="item-section-note">Crafting components used to build ranged weapons at the Forge.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/part-gun-barrel.png" class="item-icon-sm" alt=""></td><td>Gun Barrel</td><td class="iid">parts/gun-barrel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1150</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/part-pistol-stock.png" class="item-icon-sm" alt=""></td><td>Pistol Stock</td><td class="iid">parts/pistol-stock</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1151</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/part-musket-stock.png" class="item-icon-sm" alt=""></td><td>Musket Stock</td><td class="iid">parts/musket-stock</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1152</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-shields">
+    <h2><img src="./assets/icons/shield-force.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Shields <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(2 items)</span></h2>
+    <p class="item-section-note">Defensive items that reduce specific damage types when equipped.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/shield-acid.png" class="item-icon-sm" alt=""></td><td>Acid Shield</td><td class="iid">shields/acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1121</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/shield-force.png" class="item-icon-sm" alt=""></td><td>Force Shield</td><td class="iid">shields/force</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1120</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-ground">
+    <h2><img src="./assets/icons/ore-iron.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Ground & Ores <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(102 items)</span></h2>
+    <p class="item-section-note">Terrain blocks, ores, minerals, crystals, and raw materials found underground.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-dirt.png" class="item-icon-sm" alt=""></td><td>Earth</td><td class="iid">ground/earth</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">512</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-stone.png" class="item-icon-sm" alt=""></td><td>Stone</td><td class="iid">ground/stone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">513</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Limestone</td><td class="iid">ground/limestone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">511</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-sand.png" class="item-icon-sm" alt=""></td><td>Sandstone</td><td class="iid">ground/sandstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">510</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-sand.png" class="item-icon-sm" alt=""></td><td>Sand</td><td class="iid">ground/sand</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">444</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Clay</td><td class="iid">ground/clay</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">540</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-flax.png" class="item-icon-sm" alt=""></td><td>Flax</td><td class="iid">ground/flax</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">514</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-resin.png" class="item-icon-sm" alt=""></td><td>Resin</td><td class="iid">ground/resin</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">539</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Iron</td><td class="iid">ground/iron</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">552</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt=""></td><td>Iron Ore</td><td class="iid">ground/iron-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">562</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Copper</td><td class="iid">ground/copper</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">550</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-copper.png" class="item-icon-sm" alt=""></td><td>Copper Ore</td><td class="iid">ground/copper-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">560</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Lead</td><td class="iid">ground/lead</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">555</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-lead.png" class="item-icon-sm" alt=""></td><td>Lead Ore</td><td class="iid">ground/lead-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">565</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Zinc</td><td class="iid">ground/zinc</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">551</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-zinc.png" class="item-icon-sm" alt=""></td><td>Zinc Ore</td><td class="iid">ground/zinc-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">561</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Quartz</td><td class="iid">ground/quartz</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">553</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-quartz.png" class="item-icon-sm" alt=""></td><td>Quartz Ore</td><td class="iid">ground/quartz-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">563</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sulfur</td><td class="iid">ground/sulfur</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">554</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-sulfur.png" class="item-icon-sm" alt=""></td><td>Sulfur Ore</td><td class="iid">ground/sulfur-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">564</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-salt.png" class="item-icon-sm" alt=""></td><td>Salt</td><td class="iid">ground/salt</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">587</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Marble</td><td class="iid">ground/marble</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">557</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-marble.png" class="item-icon-sm" alt=""></td><td>Marble Ore</td><td class="iid">ground/marble-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">567</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-bloodstone.png" class="item-icon-sm" alt=""></td><td>Bloodstone</td><td class="iid">ground/bloodstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">556</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bloodstone Ore</td><td class="iid">ground/bloodstone-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">566</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-diamond.png" class="item-icon-sm" alt=""></td><td>Diamond</td><td class="iid">ground/diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">558</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Ore</td><td class="iid">ground/diamond-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">568</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-onyx.png" class="item-icon-sm" alt=""></td><td>Onyx</td><td class="iid">ground/onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">591</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-beryllium.png" class="item-icon-sm" alt=""></td><td>Beryllium</td><td class="iid">ground/beryllium</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">559</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Beryllium Ore</td><td class="iid">ground/beryllium-ore</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">569</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/ore-platinum.png" class="item-icon-sm" alt=""></td><td>Platinum (Quartz)</td><td class="iid">ground/platinum</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">553</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/crystal-blue.png" class="item-icon-sm" alt=""></td><td>Blue Crystal</td><td class="iid">ground/crystal-blue-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">580</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/crystal-purple.png" class="item-icon-sm" alt=""></td><td>Purple Crystal</td><td class="iid">ground/crystal-purple-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">584</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Red Crystal</td><td class="iid">ground/crystal-red-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">585</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"><img src="./assets/icons/crystal-orange.png" class="item-icon-sm" alt=""></td><td>Orange Crystal</td><td class="iid">ground/crystal-orange</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">594</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fire Salt</td><td class="iid">ground/fire-salt</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">589</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Salt Crystal</td><td class="iid">ground/salt-crystal</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">586</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bedrock</td><td class="iid">ground/bedrock</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">666</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Blackrock</td><td class="iid">ground/blackrock</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">664</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Cobweb</td><td class="iid">ground/cobweb</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">507</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ectoplasm</td><td class="iid">ground/ectoplasm</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">451</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Guano</td><td class="iid">ground/guano</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">590</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Feathers</td><td class="iid">ground/feathers</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">454</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fur</td><td class="iid">ground/fur</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">455</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Terrapus Egg</td><td class="iid">ground/terrapus-egg</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">452</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Snake Skin</td><td class="iid">ground/snake-skin</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">458</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Scorpion Tail</td><td class="iid">ground/scorpion-tail</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">456</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Turtle Shell</td><td class="iid">ground/turtle-shell</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">459</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-liquid">
+    <h2>Liquid <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(3 items)</span></h2>
+    <p class="item-section-note">Liquids that flow through the world: water, acid, and magma/lava.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Water</td><td class="iid">liquid/water</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">100</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Acid</td><td class="iid">liquid/acid</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">101</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Magma</td><td class="iid">liquid/magma</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">102</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-rubble">
+    <h2>Rubble <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(35 items)</span></h2>
+    <p class="item-section-note">Debris, bone piles, scrap metal, gravestones, and stone/wood rubble.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Skeleton</td><td class="iid">rubble/skeleton</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">970</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bone Pile</td><td class="iid">rubble/bone-pile</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">424</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bones</td><td class="iid">rubble/bones-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">972</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gravestone</td><td class="iid">rubble/gravestone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">960</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Hellish Gravestone</td><td class="iid">rubble/hell-gravestone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">961</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Stone Rubble</td><td class="iid">rubble/stone-pile-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">940</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Rubble</td><td class="iid">rubble/wood-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">954</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Iron Scrap Metal</td><td class="iid">rubble/iron</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">975</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Copper Scrap Metal</td><td class="iid">rubble/copper</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">976</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Scrap Metal</td><td class="iid">rubble/brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">977</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Scrap Metal</td><td class="iid">rubble/scrap-metal-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">980</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-holiday">
+    <h2>Holiday <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(15 items)</span></h2>
+    <p class="item-section-note">Seasonal items for Halloween, Christmas, and other events.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Candy Cane</td><td class="iid">holiday/candy-cane-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">460</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Candy Cane</td><td class="iid">holiday/candy-cane-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">461</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gift Box</td><td class="iid">holiday/gift-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">462</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Gift Box</td><td class="iid">holiday/gift-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">463</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tall Gift Box</td><td class="iid">holiday/gift-tall</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">464</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Stocking</td><td class="iid">holiday/stocking</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">466</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Stocking</td><td class="iid">holiday/stocking-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">467</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mistletoe</td><td class="iid">holiday/mistletoe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">465</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wreath</td><td class="iid">holiday/wreath-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">468</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Large Wreath</td><td class="iid">holiday/wreath-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">469</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Festive Lights</td><td class="iid">holiday/christmas-lights-white</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">479</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Reindeer Lights</td><td class="iid">holiday/christmas-lights-reindeer</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">382</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Coffin</td><td class="iid">holiday/coffin</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">414</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Festive Door</td><td class="iid">holiday/door-festive</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">478</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sleigh Lights</td><td class="iid">holiday/christmas-lights-sleigh</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">383</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-biome">
+    <h2><img src="./assets/icons/biome-arctic.png" class="item-icon-sm" style="width:24px;height:24px;margin-right:8px;" alt="">Biome Items <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(46 items)</span></h2>
+    <p class="item-section-note">Unique blocks and structures from Arctic, Desert, Hell, and Brain biomes.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ice</td><td class="iid">arctic/ice</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1080</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ice Brick</td><td class="iid">arctic/ice-brick</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1081</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Snow</td><td class="iid">arctic/snow</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1083</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Snow Brick</td><td class="iid">arctic/snow-brick</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">372</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Snowball</td><td class="iid">arctic/snowball</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1089</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Snowman Face</td><td class="iid">arctic/snowman-face</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1092</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Android Ice Sculpture</td><td class="iid">arctic/ice-sculpture-android</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">374</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Dragon Ice Sculpture</td><td class="iid">arctic/ice-sculpture-dragon</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">376</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Penguin Ice Sculpture</td><td class="iid">arctic/ice-sculpture-penguin</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">378</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Cactus Base</td><td class="iid">desert/cactus-base</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">426</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Rock Small</td><td class="iid">desert/rock-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">440</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Rock Large</td><td class="iid">desert/rock-large</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">443</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Expiator</td><td class="iid">hell/expiator-face</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1003</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Expiator Frame</td><td class="iid">hell/expiator-frame</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1001</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Infernal Protector</td><td class="iid">hell/dish</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1010</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Neuron</td><td class="iid">brain/pipe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">420</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brain Tank Glass</td><td class="iid">brain/tank</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">423</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brain Tank Base</td><td class="iid">brain/tank-base</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">421</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brain Tank Top</td><td class="iid">brain/tank-brass-top</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">422</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-machines">
+    <h2>Machines <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(15 items)</span></h2>
+    <p class="item-section-note">World-affecting machines: weather, holograph, gun suppressor, mass spawner, and mass teleporter.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Weather Machine</td><td class="iid">machines/weather-machine</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">343</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Weather Machine</td><td class="iid">machines/weather-machine-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">233</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Weather Machine</td><td class="iid">machines/weather-machine-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">234</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Holograph Machine</td><td class="iid">machines/holograph</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">340</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Holograph Machine</td><td class="iid">machines/holograph-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">227</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Holograph Machine</td><td class="iid">machines/holograph-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">228</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gun Suppressor</td><td class="iid">machines/gun-suppressor</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">339</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Gun Suppressor</td><td class="iid">machines/gun-suppressor-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">229</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Gun Suppressor</td><td class="iid">machines/gun-suppressor-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">230</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mass Spawner</td><td class="iid">machines/mass-spawner</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">341</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Mass Spawner</td><td class="iid">machines/mass-spawner-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">231</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Mass Spawner</td><td class="iid">machines/mass-spawner-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">232</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mass Teleporter</td><td class="iid">machines/mass-teleporter</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">342</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Mass Teleporter</td><td class="iid">machines/mass-teleporter-diamond</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">235</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Mass Teleporter</td><td class="iid">machines/mass-teleporter-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">236</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-backdrop">
+    <h2>Backdrops <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(38 items)</span></h2>
+    <p class="item-section-note">Background wall tiles: stone, brick, wood panels, glass, metal, and wallpapers.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Stone Backdrop</td><td class="iid">back/stone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">255</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brick Backdrop</td><td class="iid">back/brick</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">257</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Blue Brick Backdrop</td><td class="iid">back/brick-blue</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">265</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Backdrop</td><td class="iid">back/wood</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">260</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wood Panel</td><td class="iid">back/wood-panel</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">261</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Wood Panel</td><td class="iid">back/wood-panel-decorative</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">262</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Iron Backdrop</td><td class="iid">back/iron</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">267</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Copper Backdrop</td><td class="iid">back/copper</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">268</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Marble Backdrop</td><td class="iid">back/marble</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">269</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Backdrop</td><td class="iid">back/brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">270</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sandstone Brick Backdrop</td><td class="iid">back/sandstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">271</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Limestone Brick Backdrop</td><td class="iid">back/limestone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">272</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Glass Backdrop</td><td class="iid">back/glass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">602</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Fancy Glass Backdrop</td><td class="iid">back/glass-divided</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">603</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ice Backdrop</td><td class="iid">back/ice-brick</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1082</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Scaffolding</td><td class="iid">back/scaffold</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">256</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gold Damask Wallpaper</td><td class="iid">back/wallpaper-1</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">300</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Faded Floral Wallpaper</td><td class="iid">back/wallpaper-2</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">301</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Art Deco Wallpaper</td><td class="iid">back/wallpaper-3</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">302</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Chartreuse Damask Wallpaper</td><td class="iid">back/wallpaper-5</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">304</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gray Cobblestone Backdrop</td><td class="iid">back/cobblestone-gray</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">335</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Paper</td><td class="iid">back/paper</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">299</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Cork</td><td class="iid">back/cork</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">273</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Adobe Backdrop</td><td class="iid">back/adobe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">266</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bloodstone Backdrop</td><td class="iid">back/bloodstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">259</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-cosmetics">
+    <h2>Cosmetics <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(327 items)</span></h2>
+    <p class="item-section-note">All appearance items: hair styles, hair colors, skin colors, clothing tops and bottoms, footwear, headgear, facial gear, facial hair, prosthetics, and emotes (327 total items across 12 sub-categories).</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bowler Hat</td><td class="iid">headgear/bowlerhat-black</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1335</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Top Hat</td><td class="iid">headgear/tophat-black</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1331</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Helmet</td><td class="iid">headgear/brass-helmet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1272</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Onyx Helmet</td><td class="iid">headgear/helmet-onyx</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1333</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diving Helmet</td><td class="iid">headgear/diving-helmet</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1376</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pirate Hat</td><td class="iid">headgear/pirate</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1421</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Magician Hat</td><td class="iid">headgear/magician-hat</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1270</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Crown</td><td class="iid">headgear/crown</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1424</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Santa Hat</td><td class="iid">headgear/santa</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1283</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Goggles</td><td class="iid">headgear/goggles</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1342</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tuxedo</td><td class="iid">tops/tuxedo</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1300</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Waistcoat</td><td class="iid">tops/waistcoat-gray</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1301</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass</td><td class="iid">tops/brass</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1253</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pirate</td><td class="iid">tops/pirate</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1324</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Magician</td><td class="iid">tops/magician</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1252</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diving Suit</td><td class="iid">tops/diving-suit</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1328</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Santa</td><td class="iid">tops/santa</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1285</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pants</td><td class="iid">bottoms/pants-black</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1380</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pink Dress</td><td class="iid">bottoms/dress-pink</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1389</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Kilt</td><td class="iid">bottoms/kilt</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1397</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Tutu</td><td class="iid">bottoms/tutu</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1396</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Santa Pants</td><td class="iid">bottoms/santa</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1282</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Shoes</td><td class="iid">footwear/shoes-black</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1360</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Pirate Boots</td><td class="iid">footwear/pirate-boots</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1366</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Boot</td><td class="iid">footwear/brass-boot</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1461</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Flippers</td><td class="iid">footwear/diving-suit</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1368</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Goggles</td><td class="iid">facialgear/goggles</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1342</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Monocle</td><td class="iid">facialgear/monocle</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1343</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Eyepatch</td><td class="iid">facialgear/eyepatch</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1458</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ninja Mask</td><td class="iid">facialgear/ninja</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1237</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Full Beard</td><td class="iid">facialhair/beard-full</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1434</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Moustache</td><td class="iid">facialhair/moustache</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1438</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Goatee</td><td class="iid">facialhair/goatee-small</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1431</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Exotorso</td><td class="iid">prosthetics/brass-torso</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1200</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Brass Exoleg</td><td class="iid">prosthetics/brass-legs</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1201</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Diamond Exotorso</td><td class="iid">prosthetics/diamond-torso</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1203</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Short</td><td class="iid">hair/short</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1407</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Long</td><td class="iid">hair/long</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1404</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Mohawk</td><td class="iid">hair/mohawk</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1408</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Dreadlocks</td><td class="iid">hair/dreadlocks</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1412</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Afro</td><td class="iid">hair/fro</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1410</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Backflip</td><td class="iid">emotes/dance-backflip</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1172</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Monkey Dance</td><td class="iid">emotes/dance-monkey</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1173</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>High Five</td><td class="iid">emotes/high-five</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1180</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Wave</td><td class="iid">emotes/wave</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1229</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>YMCA</td><td class="iid">emotes/dance-ymca</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1196</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="item-section" id="cat-misc">
+    <h2>Miscellaneous <span style="color:#7a6a50;font-size:14px;font-family:inherit;font-weight:normal;">(18 items)</span></h2>
+    <p class="item-section-note">Air, ammo, base blocks (graffiti, vents, pipes), and other uncategorized items.</p>
+    <table class="items-table">
+      <thead><tr><th style="width:32px;">Icon</th><th>Title</th><th>Item ID</th><th style="text-align:right;">Code</th></tr></thead>
+      <tbody>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Air</td><td class="iid">air</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">0</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Bullets</td><td class="iid">ammo/bullets</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1035</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Gunpowder</td><td class="iid">ammo/gunpowder</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1036</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Earth Backdrop</td><td class="iid">base/earth</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">2</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Limestone Backdrop</td><td class="iid">base/limestone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">4</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Sandstone Backdrop</td><td class="iid">base/sandstone</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">3</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Vent</td><td class="iid">base/vent</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">10</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Culvert</td><td class="iid">base/pipe</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">6</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Maw</td><td class="iid">base/maw</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">5</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Modern Graffiti</td><td class="iid">base/drawing-modern</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">12</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Historical Graffiti</td><td class="iid">base/drawing-historical</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">13</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Warning Graffiti</td><td class="iid">base/drawing-danger</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">14</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Ocean</td><td class="iid">base/water</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">9</td></tr>
+      <tr><td style="width:32px;text-align:center;padding:3px 6px;"></td><td>Empty</td><td class="iid">base/empty</td><td style="text-align:right;color:#7a6a50;font-family:'Courier New',monospace;font-size:11px;">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+
 </div>
 
 <!-- ==================== SKILLS PAGE ==================== -->
