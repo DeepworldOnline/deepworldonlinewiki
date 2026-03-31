@@ -310,251 +310,615 @@
 
 <!-- ==================== MOBS PAGE ==================== -->
 <div class="page" id="page-mobs">
-  <h1><img src="./assets/icons/mob-terrapus.png" class="item-icon" alt="Mobs"> Mobs & Creatures</h1>
-  <p>Deepworld is populated with a variety of hostile, neutral, and friendly creatures. Each mob has specific stats, behaviors, and loot tables. Click any creature to view its full sprite.</p>
+  <h1><img src="./assets/icons/mob-terrapus.png" class="item-icon" alt="Mobs"> Mobs &amp; Creatures</h1>
+  <p>Deepworld is populated with a variety of hostile, neutral, and friendly creatures. Each mob has specific stats, behaviors, and biome spawns. Click any card to jump to its full details.</p>
 
   <!-- MOB CARD GRID -->
   <div class="mob-grid">
-    <div class="mob-card">
+    <a class="mob-card" href="#mob-detail-acid-terrapus">
       <div class="mob-card-name">Acid Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus-acid.png" alt="Acid Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-terrapus-acid.png" alt="Acid Terrapus">
+    </a>
+    <a class="mob-card" href="#mob-detail-adult-brain">
       <div class="mob-card-name">Adult Brain</div>
-      <img src="./assets/icons/official-mob-brain-adult.png" alt="Adult Brain" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-brain-adult.png" alt="Adult Brain">
+    </a>
+    <a class="mob-card" href="#mob-detail-adult-terrapus">
       <div class="mob-card-name">Adult Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus.png" alt="Adult Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-terrapus.png" alt="Adult Terrapus">
+    </a>
+    <a class="mob-card" href="#mob-detail-android">
       <div class="mob-card-name">Android</div>
-      <img src="./assets/icons/official-mob-android.png" alt="Android" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-android.png" alt="Android">
+    </a>
+    <a class="mob-card" href="#mob-detail-automaton">
       <div class="mob-card-name">Automaton</div>
-      <img src="./assets/icons/official-mob-automata-medium.png" alt="Automaton" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-automata-medium.png" alt="Automaton">
+    </a>
+    <a class="mob-card" href="#mob-detail-baby-brain">
       <div class="mob-card-name">Baby Brain</div>
-      <img src="./assets/icons/official-mob-brain-tiny.png" alt="Baby Brain" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-brain-tiny.png" alt="Baby Brain">
+    </a>
+    <a class="mob-card" href="#mob-detail-baby-terrapus">
       <div class="mob-card-name">Baby Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus-juvenile.png" alt="Baby Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-terrapus-juvenile.png" alt="Baby Terrapus">
+    </a>
+    <a class="mob-card" href="#mob-detail-bat">
       <div class="mob-card-name">Bat</div>
-      <img src="./assets/icons/official-mob-bat.png" alt="Bat" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-bat.png" alt="Bat">
+    </a>
+    <a class="mob-card" href="#mob-detail-brain-lord">
       <div class="mob-card-name">Brain Lord</div>
-      <img src="./assets/icons/official-mob-brain-lord.png" alt="Brain Lord" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-brain-lord.png" alt="Brain Lord">
+    </a>
+    <a class="mob-card" href="#mob-detail-bunny">
       <div class="mob-card-name">Bunny</div>
-      <img src="./assets/icons/official-pet-bunny.png" alt="Bunny" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
-      <div class="mob-card-name">Crow</div>
-      <img src="./assets/icons/official-mob-crow.png" alt="Crow" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-pet-bunny.png" alt="Bunny">
+    </a>
+    <a class="mob-card" href="#mob-detail-dire-large-brain">
       <div class="mob-card-name">Dire Large Brain</div>
-      <img src="./assets/icons/official-mob-brain-dire.png" alt="Dire Large Brain" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-brain-dire.png" alt="Dire Large Brain">
+    </a>
+    <a class="mob-card" href="#mob-detail-dire-revenant">
       <div class="mob-card-name">Dire Revenant</div>
-      <img src="./assets/icons/official-mob-revenant-dire.png" alt="Dire Revenant" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-revenant-dire.png" alt="Dire Revenant">
+    </a>
+    <a class="mob-card" href="#mob-detail-flame-terrapus">
       <div class="mob-card-name">Flame Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus-fire.png" alt="Flame Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-terrapus-fire.png" alt="Flame Terrapus">
+    </a>
+    <a class="mob-card" href="#mob-detail-frost-terrapus">
       <div class="mob-card-name">Frost Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus-frost.png" alt="Frost Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-terrapus-frost.png" alt="Frost Terrapus">
+    </a>
+    <a class="mob-card" href="#mob-detail-large-brain">
       <div class="mob-card-name">Large Brain</div>
-      <img src="./assets/icons/official-mob-brain-juvenile.png" alt="Large Brain" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
-      <div class="mob-card-name">Pet Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus-pet.png" alt="Pet Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
-      <div class="mob-card-name">Revenant</div>
-      <img src="./assets/icons/official-mob-revenant.png" alt="Revenant" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
-      <div class="mob-card-name">Revenant Lord</div>
-      <img src="./assets/icons/official-mob-revenant-lord.png" alt="Revenant Lord" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
-      <div class="mob-card-name">Skeleton Terrapus</div>
-      <img src="./assets/icons/official-mob-terrapus-skeleton.png" alt="Skeleton Terrapus" class="lightbox-trigger">
-    </div>
-    <div class="mob-card">
+      <img src="./assets/icons/official-mob-brain-juvenile.png" alt="Large Brain">
+    </a>
+    <a class="mob-card" href="#mob-detail-crow">
+      <div class="mob-card-name">Crow</div>
+      <img src="./assets/icons/official-mob-crow.png" alt="Crow">
+    </a>
+    <a class="mob-card" href="#mob-detail-skunk">
       <div class="mob-card-name">Skunk</div>
-      <img src="./assets/icons/official-pet-skunk.png" alt="Skunk" class="lightbox-trigger">
+      <img src="./assets/icons/official-pet-skunk.png" alt="Skunk">
+    </a>
+    <a class="mob-card" href="#mob-detail-pet-terrapus">
+      <div class="mob-card-name">Pet Terrapus</div>
+      <img src="./assets/icons/official-mob-terrapus-pet.png" alt="Pet Terrapus">
+    </a>
+    <a class="mob-card" href="#mob-detail-revenant-lord">
+      <div class="mob-card-name">Revenant Lord</div>
+      <img src="./assets/icons/official-mob-revenant-lord.png" alt="Revenant Lord">
+    </a>
+    <a class="mob-card" href="#mob-detail-revenant">
+      <div class="mob-card-name">Revenant</div>
+      <img src="./assets/icons/official-mob-revenant.png" alt="Revenant">
+    </a>
+    <a class="mob-card" href="#mob-detail-skeleton-terrapus">
+      <div class="mob-card-name">Skeleton Terrapus</div>
+      <img src="./assets/icons/official-mob-terrapus-skeleton.png" alt="Skeleton Terrapus">
+    </a>
+  </div>
+
+  <!-- ===== MOB DETAIL SECTIONS ===== -->
+
+  <!-- Acid Terrapus -->
+  <div class="mob-detail" id="mob-detail-acid-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus-acid.png" class="item-icon" alt="">Acid Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Acid Terrapus is a more capable breed of the Adult Terrapus, characterized by slimy green skin and the ability to fire acid projectiles. They are found at lower depths near acid pools and occur most abundantly in brain biomes, attacking players on sight.</p>
+        <h4>Combat Tips</h4>
+        <p>Acid Terrapi are immune to Acid Cannon attacks, so use a different weapon. If retreat is preferable, dig twisting tunnels through dirt to confuse the Terrapus and make a quick escape.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus-acid.png" class="mob-detail-img" alt="Acid Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">1 heart</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">5 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Acid</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">Crushing</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adult Brain -->
+  <div class="mob-detail" id="mob-detail-adult-brain">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-brain-adult.png" class="item-icon" alt="">Adult Brain</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Adult Brains are the second tier of hostile brains, appearing frequently in the lower underground. They have shields that repel melee attacks and one random additional attack type, so fighting multiple at once may require switching weapons to damage them all.</p>
+        <h4>Combat Tips</h4>
+        <p>Brains cannot move through open trapdoors, though they can still shoot through them. Avoid sustained gunfire, which causes a brain to activate its shield — instead, shoot in short bursts or rapidly alternate between two different weapon types. Shield colors indicate which attack type a brain resists: grey for melee, red for fire, green for acid, yellow for energy, and blue for frost.</p>
+        <h4>History</h4>
+        <p>Adult Brains were the first brain type introduced to Deepworld, originally more difficult to defeat. Their difficulty was reduced after stronger brain variants were added. An exploit where placing earth blocks on a brain could immobilize it was patched when brain mechanics were updated to allow them to shovel through blocks.</p>
+        <h4>Lore</h4>
+        <p>Adult Brains represent the juvenile age level of the brain continuum — the smallest brain to appear outside of Brain worlds. To progress to more mature status, they must complete missions against human survivors, which is why they are frequently encountered in combat.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-brain-adult.png" class="mob-detail-img" alt="Adult Brain">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">7 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">4 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Many</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adult Terrapus -->
+  <div class="mob-detail" id="mob-detail-adult-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus.png" class="item-icon" alt="">Adult Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Adult Terrapus is the most commonly encountered enemy in Deepworld. It attacks on sight with inky projectiles and may pop out of dirt blocks while you mine underground. Killing one drops giblets.</p>
+        <h4>Combat Tips</h4>
+        <p>Any weapon — gun, sledgehammer, or pickaxe — will work against the Adult Terrapus. To avoid a fight, dig twisting tunnels through dirt to confuse it and slip away.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus.png" class="mob-detail-img" alt="Adult Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">0 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">4 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Acid</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">Crushing, Fire, Piercing</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Android -->
+  <div class="mob-detail" id="mob-detail-android">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-android.png" class="item-icon" alt="">Android</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Androids are non-hostile humanoid robots that prowl the remains of Deepworld and attempt to make conversation with any traveler who encounters them. Six androids spawn in any world, each with a unique name. They begin in the sky but don't descend until a player passes beneath them.</p>
+        <h4>Behavior</h4>
+        <p>Androids stop to converse when a player comes close, and tap interaction opens a dialog box with various requests. They walk in one direction until hitting an obstacle, then reverse — pausing to communicate if a human crosses their path. Like other walking mobs, they can climb steps up to two blocks high but skip over single-block-wide vertical chutes.</p>
+        <h4>Combat Tips</h4>
+        <p>Androids cannot be killed, no matter how bad their jokes are.</p>
+        <h4>History</h4>
+        <p>Androids have been in Deepworld since late 2012 and have become a mascot of sorts for the game. An early trade bug caused players to speak like androids, and android crates — containing unique android items — were added the same year. The android joke pool was sourced from a September 2013 forum competition.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-android.png" class="mob-detail-img" alt="Android">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">5 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">3 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">All</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Automaton -->
+  <div class="mob-detail" id="mob-detail-automaton">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-automata-medium.png" class="item-icon" alt="">Automaton</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Automata (singular: automaton) are semi-sentient robot-like creatures that spawn underground from culverts, randomly in caves, and occasionally from behind mined silver crates. They come in many sizes and shapes, almost always featuring brass fittings and components that appear cobbled together from other machines.</p>
+        <h4>Behavior</h4>
+        <p>Most automata are armed — some deal damage on contact, others shoot at the player, and a few simply try to shove the player without causing harm. Flying automata pursue and stay close once they sight you, while ground-based types walk back and forth, shooting if they have line of sight. Ground-based automata can jump two-block barriers but cannot scale walls three blocks high.</p>
+        <h4>Combat Tips</h4>
+        <p>Energy cannons and acid cannons are often cited as the most effective weapons against automata. Larger automata deal more damage and take more to kill, and often drop canisters when defeated. Smaller ones drop scrap metal. XP rewards range from +3 for small automata to +30 for the largest.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-automata-medium.png" class="mob-detail-img" alt="Automaton">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">Varies</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">Varies</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">N/A</span></div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- TERRAPUS FAMILY -->
-  <div class="mob-family">
-    <h2><img src="./assets/icons/mob-terrapus.png" class="item-icon" alt="Terrapus"> Terrapus Family</h2>
-    <p>The Terrapus (plural: Terrapi) are the most common aggressive mob in Deepworld. The name comes from "terra" (earth) + "octopus" &mdash; earth octopus. They do not follow players but can climb walls.</p>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Name</th><th>HP</th><th>Damage</th><th>XP</th><th>Weakness</th><th>Defense</th><th>Biome</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/mob-terrapus-juvenile.png" class="item-icon" alt="">Juvenile Terrapus</td><td>0.5</td><td><span class="dmg dmg-piercing">Piercing 0.3</span></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>All (surface)</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus.png" class="item-icon" alt="">Adult Terrapus</td><td>0.8</td><td><span class="dmg dmg-piercing">Piercing 0.5</span></td><td>2</td><td>Fire 0.3, Piercing 0.2, Crushing 0.3</td><td>Acid 0.2</td><td>All</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus-fire.png" class="item-icon" alt="">Fire Terrapus</td><td>1.5</td><td><span class="dmg dmg-fire">Fire 0.75</span></td><td>3</td><td>Cold 0.4, Crushing 0.2</td><td>Fire 1.3, Steam 1.1</td><td>Any (fire spawn)</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus-acid.png" class="item-icon" alt="">Acid Terrapus</td><td>1.5</td><td><span class="dmg dmg-acid">Acid 0.55</span></td><td>3</td><td>Crushing 0.2</td><td>Acid 1.3</td><td>Temperate (rare)</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus-skeleton.png" class="item-icon" alt="">Skeleton Terrapus</td><td>2.0</td><td><span class="dmg dmg-energy">Energy 0.3</span></td><td>3</td><td>Crushing 0.2</td><td>Energy 1.3, Cold 0.5, Fire 0.5</td><td>Hell only</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus-frost.png" class="item-icon" alt="">Frost Terrapus</td><td>1.5</td><td><span class="dmg dmg-cold">Cold 0.55</span></td><td>3</td><td>Fire 0.4, Crushing 0.2</td><td>Cold 1.3</td><td>Arctic</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus-queen.png" class="item-icon" alt="">Queen Terrapus</td><td>25.0</td><td><span class="dmg dmg-piercing">Piercing 2.0</span></td><td>25</td><td>&mdash;</td><td>Acid 1.0, Cold 0.5, Energy 0.2</td><td>Boss</td></tr>
-        <tr><td><img src="./assets/icons/mob-terrapus-pet.png" class="item-icon" alt="">Pet Terrapus</td><td>&mdash;</td><td>None (friendly)</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>Red chest loot</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- BRAINS -->
-  <div class="mob-family">
-    <h2><img src="./assets/icons/mob-brain-adult.png" class="item-icon" alt="Brains"> Brains</h2>
-    <img class="wiki-img" src="./assets/images/mob-brain.png" alt="Brain Creature" style="max-width:300px;float:right;margin:0 0 12px 16px;">
-    <p>Brains are among the most iconic enemies in Deepworld. Found in dungeons, Brain biomes, and mechanical maws, they attack with energy cannons and use force shields for defense.</p>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Name</th><th>HP</th><th>Damage</th><th>XP</th><th>Notes</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/mob-brain-tiny.png" class="item-icon" alt="">Tiny Brain</td><td>3</td><td><span class="dmg dmg-energy">Energy 0.3</span></td><td>5</td><td>Has force shield</td></tr>
-        <tr><td><img src="./assets/icons/mob-brain-juvenile.png" class="item-icon" alt="">Juvenile Brain</td><td>7</td><td><span class="dmg dmg-energy">Energy 0.3</span></td><td>10</td><td>Has force shield, drops <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings</td></tr>
-        <tr><td><img src="./assets/icons/mob-brain-adult.png" class="item-icon" alt="">Adult Brain</td><td>11</td><td><span class="dmg dmg-energy">Energy 0.4</span></td><td>20</td><td>Drops <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings (20), canisters</td></tr>
-        <tr><td><img src="./assets/icons/mob-brain-dire.png" class="item-icon" alt="">Dire Adult Brain</td><td>18</td><td><span class="dmg dmg-energy">Energy 0.5</span></td><td>30</td><td>Drops <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings (30), spawns from <img src="./assets/icons/container-pandora.png" class="item-icon-sm" alt="">Pandora</td></tr>
-        <tr><td><img src="./assets/icons/mob-brain-lord.png" class="item-icon" alt="">Brain Lord</td><td>34</td><td><span class="dmg dmg-energy">Energy 0.5</span></td><td>100</td><td>Boss. Drops <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings (100), cloaks</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- AUTOMATA -->
-  <div class="mob-family">
-    <h2><img src="./assets/icons/mob-automata-medium.png" class="item-icon" alt="Automata"> Automata</h2>
-    <p>Mechanical enemies found primarily in dungeons and scattered throughout the world. Weak to bludgeoning weapons (<img src="./assets/icons/weapon-sledgehammer.png" class="item-icon-sm" alt="">Sledgehammers, <img src="./assets/icons/weapon-tesla-club.png" class="item-icon-sm" alt="">Tesla Club).</p>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Name</th><th>HP</th><th>XP</th><th>Loot</th><th>Variants</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/mob-automata-small.png" class="item-icon" alt="">Small Automata</td><td>1.5</td><td>5</td><td>Iron rubble, brass rubble, <img src="./assets/icons/consume-canister.png" class="item-icon-sm" alt="">canisters</td><td>Walker, Flyer</td></tr>
-        <tr><td><img src="./assets/icons/mob-automata-medium.png" class="item-icon" alt="">Medium Automata</td><td>6</td><td>10</td><td>Iron/brass rubble, canisters</td><td>Walker, Flyer</td></tr>
-        <tr><td><img src="./assets/icons/mob-automata-large.png" class="item-icon" alt="">Large Automata</td><td>15</td><td>20</td><td>Canisters, ectoplasm</td><td>Walker, Flyer</td></tr>
-      </tbody>
-    </table>
-    <p>Gun-equipped Automata variants also exist: Acid, Bullet, Energy, Flame, Frost, and Steam gun types.</p>
-  </div>
-
-  <!-- SUPERNATURAL -->
-  <div class="mob-family">
-    <h2><img src="./assets/icons/mob-ghost.png" class="item-icon" alt="Supernatural"> Supernatural</h2>
-    <p>Ghostly and undead entities found in certain biomes and dungeons.</p>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Name</th><th>HP</th><th>Damage</th><th>XP</th><th>Speed</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/mob-ghost.png" class="item-icon" alt="">Ghost</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>3</td></tr>
-        <tr><td><img src="./assets/icons/mob-revenant.png" class="item-icon" alt="">Revenant</td><td>6</td><td><span class="dmg dmg-shadow">Shadow</span></td><td>10</td><td>3</td></tr>
-        <tr><td><img src="./assets/icons/mob-revenant-dire.png" class="item-icon" alt="">Dire Revenant</td><td>12</td><td><span class="dmg dmg-shadow">Shadow (burst 8)</span></td><td>20</td><td>5</td></tr>
-        <tr><td><img src="./assets/icons/mob-revenant-lord.png" class="item-icon" alt="">Revenant Lord</td><td>31</td><td><span class="dmg dmg-shadow">Shadow</span></td><td>80</td><td>4</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- DESERT CREATURES -->
-  <div class="mob-family">
-    <h2><img src="./assets/icons/mob-scorpion.png" class="item-icon" alt="Desert"> Desert Creatures</h2>
-    <p>Creatures unique to the Desert biome.</p>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Name</th><th>HP</th><th>Damage</th><th>XP</th><th>Notes</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/mob-scorpion.png" class="item-icon" alt="">Scorpion</td><td>1.75</td><td>&mdash;</td><td>3</td><td>Common desert enemy</td></tr>
-        <tr><td><img src="./assets/icons/mob-scorpion-large.png" class="item-icon" alt="">Large Scorpion</td><td>5.5</td><td><span class="dmg dmg-piercing">Piercing 0.9</span></td><td>5</td><td>Stronger variant</td></tr>
-        <tr><td><img src="./assets/icons/mob-sandworm.png" class="item-icon" alt="">Sand Worm</td><td>&mdash;</td><td><span class="dmg dmg-fire">Fire 1.0</span></td><td>&mdash;</td><td>Emerges from sand</td></tr>
-        <tr><td><img src="./assets/icons/mob-armadillo.png" class="item-icon" alt="">Armadillo</td><td>2.0</td><td>None</td><td>&mdash;</td><td>Friendly, passive creature</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- OTHER CREATURES -->
-  <div class="mob-family">
-    <h2>Other Creatures</h2>
-    <h4>Small Animals</h4>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Name</th><th>HP</th><th>Behavior</th><th>Notes</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/mob-rat.png" class="item-icon" alt="">Rat</td><td>0.9</td><td>Friendly</td><td>Found underground</td></tr>
-        <tr><td><img src="./assets/icons/mob-bat.png" class="item-icon" alt="">Bat</td><td>1.1</td><td>Neutral</td><td>Found in caves</td></tr>
-        <tr><td><img src="./assets/icons/mob-crow.png" class="item-icon" alt="">Crow</td><td>&mdash;</td><td>Friendly</td><td>Passive bird</td></tr>
-        <tr><td><img src="./assets/icons/mob-vulture.png" class="item-icon" alt="">Vulture</td><td>&mdash;</td><td>Friendly</td><td>Passive bird</td></tr>
-      </tbody>
-    </table>
-    <h4>Butterflies (8 types, catchable with <img src="./assets/icons/tool-net.png" class="item-icon-sm" alt="">Net)</h4>
-    <p>Eight varieties of butterflies can be found and caught using a Net tool. Higher-tier nets increase catch chance.</p>
-
-  </div>
-
-  <!-- ANDROIDS -->
-  <div class="mob-family">
-    <h2><img src="./assets/icons/mob-android.png" class="item-icon" alt="Androids"> Androids</h2>
-    <img class="wiki-img" src="./assets/images/mob-android.png" alt="Android" style="max-width:250px;float:right;margin:0 0 12px 16px;">
-    <p>Androids are craftable companion machines. Build an <strong>Android Crate</strong>, place it, mine it to release the android, then give it an <strong>Android Memory Unit</strong> to activate its personality. Each android has a unique name and offers different quests and services.</p>
-    <p>See the <a href="#machines" onclick="navigateTo('machines')">Machines &amp; Structures</a> page for full crafting recipes and android variation details (Bert, Turner, Newton, Arthur, Victoria, Isabella, Giovanni).</p>
-    <div style="clear:both;"></div>
-  </div>
-
-  <!-- PETS & COMPANIONS -->
-  <div class="mob-family">
-    <h2>Pets & Companions</h2>
-    <p>Friendly companion creatures that follow the player. Pets are obtained through crafting companion crates or hatching eggs.</p>
-
-    <h3>Companion Crates</h3>
-    <p>Craft a companion crate, place it down, and mine it to release your pet. All require <strong>Engineering Level 6</strong>.</p>
-
-    <div style="display:flex;flex-wrap:wrap;gap:16px;margin:12px 0;">
-      <div style="flex:1;min-width:220px;">
-        <h4>Cat Crate</h4>
-        <img src="./assets/images/craft-cat-crate.jpg" alt="Cat Crate recipe" style="max-width:100%;border:2px solid var(--border);margin:4px 0 8px;">
-        <p style="font-size:13px;">Iron x30, Copper x8, Quartz x8, Beryllium x10, Ectoplasm x10, Machine Gear x25, Automaton Joint x4, Automaton Foot x4, Automaton Key x1</p>
+  <!-- Baby Brain -->
+  <div class="mob-detail" id="mob-detail-baby-brain">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-brain-tiny.png" class="item-icon" alt="">Baby Brain</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Baby Brains are small, immature brains that spawn in Brain biomes. They appear as either flying or crawling variants, and despite their small size are well-armed with electrical weaponry and surprisingly resilient.</p>
+        <h4>History</h4>
+        <p>Baby Brains were originally intended to crawl along ground and walls like a Terrapus rather than fly, but this behavior was not implemented as planned.</p>
       </div>
-      <div style="flex:1;min-width:220px;">
-        <h4>Dog Crate</h4>
-        <img src="./assets/images/craft-dog-crate.jpg" alt="Dog Crate recipe" style="max-width:100%;border:2px solid var(--border);margin:4px 0 8px;">
-        <p style="font-size:13px;">Iron x30, Copper x10, Quartz x10, Beryllium x10, Ectoplasm x10, Machine Gear x25, Automaton Joint x4, Automaton Foot x4, Automaton Key x1</p>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-brain-tiny.png" class="mob-detail-img" alt="Baby Brain">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">N/A</span></div>
+        </div>
       </div>
     </div>
-
-    <h3>Hatching Pets</h3>
-    <table class="wiki-table">
-      <thead>
-        <tr><th>Pet</th><th>How to Obtain</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><img src="./assets/icons/pet-terrapus.png" class="item-icon" alt="">Pet Terrapus</td><td>Hatch from a <strong>Pet Terrapus Egg</strong> (dropped by Queen Terrapus or found in caves)</td></tr>
-      </tbody>
-    </table>
   </div>
+
+  <!-- Baby Terrapus -->
+  <div class="mob-detail" id="mob-detail-baby-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus-juvenile.png" class="item-icon" alt="">Baby Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Baby Terrapi are the weakest kind of Terrapus. They do not shoot projectiles and inflict only minimal damage on contact. They can spawn from maws or terrapus eggs.</p>
+        <h4>Combat Tips</h4>
+        <p>A few swipes of a pickaxe or a small burst of gunfire is enough to defeat a Baby Terrapus.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus-juvenile.png" class="mob-detail-img" alt="Baby Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">0 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">3 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">None</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bat -->
+  <div class="mob-detail" id="mob-detail-bat">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-bat.png" class="item-icon" alt="">Bat</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Bats spawn randomly in caves and are often the first mob to emerge from an unplugged maw — typically in packs of three. Most dungeons also contain bats.</p>
+        <h4>Behavior</h4>
+        <p>Like crows, bats travel in packs of three and deal no direct damage. They hang upside-down from surfaces, block single-block passages, and frequently interfere during dungeon raids. Killing an ordinary bat drops guano or a giblet; bats with metal parts drop scrap metal. Killing bats grants no XP.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-bat.png" class="mob-detail-img" alt="Bat">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">N/A</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brain Lord -->
+  <div class="mob-detail" id="mob-detail-brain-lord">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-brain-lord.png" class="item-icon" alt="">Brain Lord</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Brain Lord is the largest and strongest foe in Deepworld — 7 blocks wide and 8 blocks tall, with bombs, tentacles, and powerful energy cannons. They spawn inside specific dungeons that can generate in any biome, randomly underground in brain worlds, and during high-chaos Pandora's Box events.</p>
+        <h4>Attacks</h4>
+        <p>The Brain Lord attacks with contact damage, energy cannon fire, and a desiccator cannon that removes 5 steam on hit. It also launches magnet bombs that slowly track toward players and periodically spawns Adult Brains.</p>
+        <h4>Combat Tips</h4>
+        <p>The Brain Lord is relatively slow, so retreating, dodging, and taking cover is a viable strategy. For those who choose to fight, use different weapon types to disrupt its adaptive energy shield, and alternate between attacking and hiding to manage steam consumption. Bringing multiple players greatly improves the odds.</p>
+        <h4>Rewards</h4>
+        <p>Defeating a Brain Lord earns at least 100 XP (up to 150 XP at the highest Order of the Moon ranking). It drops one of the following: fire bombs (up to 3), stealth cloaks (up to 2), shillings (up to 100), power jerky (up to 5), canisters (up to 6), or an extremely rare chance at brain wine.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-brain-lord.png" class="mob-detail-img" alt="Brain Lord">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">34 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">2 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Many</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bunny -->
+  <div class="mob-detail" id="mob-detail-bunny">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-pet-bunny.png" class="item-icon" alt="">Bunny</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Little is known about the elusive snow bunny. These shy creatures spawn only on Ice worlds — sometimes from ragged maws, other times randomly in caves. Fast-moving and evasive, they do not affect the player in any way. Killing one drops Fur and triggers a notably satisfying death sound. Trapping a bunny counts toward the Trapper achievement.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-pet-bunny.png" class="mob-detail-img" alt="Bunny">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">1 heart</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">5 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">None</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dire Large Brain -->
+  <div class="mob-detail" id="mob-detail-dire-large-brain">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-brain-dire.png" class="item-icon" alt="">Dire Large Brain</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Dire Large Brains are tougher versions of the Large Brain, with significantly more health and the same multi-type defensive shields that characterize the brain family.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-brain-dire.png" class="mob-detail-img" alt="Dire Large Brain">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">18 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">3 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Many</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dire Revenant -->
+  <div class="mob-detail" id="mob-detail-dire-revenant">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-revenant-dire.png" class="item-icon" alt="">Dire Revenant</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Found only in hell biomes or during Pandora's Box events, Dire Revenants are a more capable variety of the ordinary Revenant. They look similar to regular Revenants but have red eyes.</p>
+        <h4>Combat Tips</h4>
+        <p>Like regular Revenants, Dire Revenants can only be destroyed with energy-based weapons: energy pistol, energy cannon, electric bomb, or electric exploder.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-revenant-dire.png" class="mob-detail-img" alt="Dire Revenant">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">12 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">5 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Many</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flame Terrapus -->
+  <div class="mob-detail" id="mob-detail-flame-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus-fire.png" class="item-icon" alt="">Flame Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Flame Terrapi are a medium-strength Terrapus variety that fire fireball projectiles at players. They can be found in all biomes and during Pandora's Box events, but appear most frequently in Hell biomes.</p>
+        <h4>Combat Tips</h4>
+        <p>A Frost Cannon is the most effective weapon against Flame Terrapi, though any weapon other than a Flamethrower will work. Like all Terrapi, they struggle to turn corners, so twisting tunnels are effective for escape.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus-fire.png" class="mob-detail-img" alt="Flame Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">1 heart</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">4 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Fire, Steam</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">Cold, Crushing</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Frost Terrapus -->
+  <div class="mob-detail" id="mob-detail-frost-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus-frost.png" class="item-icon" alt="">Frost Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Frost Terrapus is found in arctic biomes. It is cold-resistant and vulnerable to crushing and fire attacks.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus-frost.png" class="mob-detail-img" alt="Frost Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">1 heart</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">4 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Cold</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">Crushing, Fire</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Large Brain -->
+  <div class="mob-detail" id="mob-detail-large-brain">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-brain-juvenile.png" class="item-icon" alt="">Large Brain</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Large Brains are a bigger and more formidable version of the Adult Brain. They are considerably stronger and have greater firepower than their smaller counterparts.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-brain-juvenile.png" class="mob-detail-img" alt="Large Brain">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">11 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">3 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Many</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Crow -->
+  <div class="mob-detail" id="mob-detail-crow">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-crow.png" class="item-icon" alt="">Crow</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Crows spawn above ground in two varieties: standard all-black crows and gold-accented variants. Both come in packs of three.</p>
+        <h4>Behavior</h4>
+        <p>Crows deal no contact damage and fire nothing — they simply crowd around making noise and pushing the player. On occasion they can shove a player off a ledge, especially near acid pools. The gold-accented variant is slightly harder to kill.</p>
+        <h4>Combat Tips</h4>
+        <p>Crows are vulnerable to any weapon. Ordinary crows drop a feather or giblets when killed; gold-accented crows may additionally drop brass scrap. Killing crows grants no XP.</p>
+        <h4>History</h4>
+        <p>Crows were the first flying mob introduced to Deepworld. When first implemented, they were programmed to walk along the ground.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-crow.png" class="mob-detail-img" alt="Crow">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">1 heart</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">5 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Cold</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">Fire</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skunk -->
+  <div class="mob-detail" id="mob-detail-skunk">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-pet-skunk.png" class="item-icon" alt="">Skunk</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Skunks are non-hostile mobs found roaming underground in regular worlds. They wander back and forth aimlessly. Killing one drops Fur and produces a satisfying death sound. Trapping a skunk counts toward the Trapper achievement.</p>
+        <h4>History</h4>
+        <p>Skunks were introduced in a later update as a way to diversify the animal population of Deepworld.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-pet-skunk.png" class="mob-detail-img" alt="Skunk">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">1 heart</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">3 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">None</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pet Terrapus -->
+  <div class="mob-detail" id="mob-detail-pet-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus-pet.png" class="item-icon" alt="">Pet Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>A Pet Terrapus is a domesticated Terrapus that can be owned by a player. It is completely docile and will not attack any player. It can be identified by the large collar around its neck.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus-pet.png" class="mob-detail-img" alt="Pet Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">999,999 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">0 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">All</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Revenant Lord -->
+  <div class="mob-detail" id="mob-detail-revenant-lord">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-revenant-lord.png" class="item-icon" alt="">Revenant Lord</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Revenant Lord is the most powerful variant of Revenant. It is not yet implemented in-game.</p>
+        <h4>Lore</h4>
+        <p>The Revenant Lord is widely believed to have been the life source of the first Master Brain at the World's Fair.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-revenant-lord.png" class="mob-detail-img" alt="Revenant Lord">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">N/A</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Revenant -->
+  <div class="mob-detail" id="mob-detail-revenant">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-revenant.png" class="item-icon" alt="">Revenant</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Revenants are hostile flying mobs found only in hell worlds or Pandora events. They are tall, grey, ghostly figures that shoot smoke-like projectiles at players and can only be damaged by energy-based weapons.</p>
+        <h4>Behavior</h4>
+        <p>Revenants sometimes spawn when a player mines a bloodstone tombstone, and otherwise appear underground in open areas or against earth backdrop. Once they notice a player they pursue and attempt to kill, and can move through solid objects erratically, making walls unreliable cover.</p>
+        <h4>Combat Tips</h4>
+        <p>Only energy-based weapons can damage a Revenant. They have limited upward range, so maintaining elevation above them provides a defensive advantage. Open battlefields reduce the threat posed by their ability to pass through objects.</p>
+        <h4>History</h4>
+        <p>Revenants were originally coded as walking mobs and appeared as players with randomized appearance customizations rendered in transparent black, before being reworked into their current flying form.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-revenant.png" class="mob-detail-img" alt="Revenant">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">6 hearts</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">3 m/s</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">Many</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">None</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skeleton Terrapus -->
+  <div class="mob-detail" id="mob-detail-skeleton-terrapus">
+    <div class="mob-detail-header">
+      <h3><img src="./assets/icons/official-mob-terrapus-skeleton.png" class="item-icon" alt="">Skeleton Terrapus</h3>
+    </div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Skeleton Terrapus is a skeletal variant of the Terrapus. Detailed information from the original source was unavailable at the time of archival.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/official-mob-terrapus-skeleton.png" class="mob-detail-img" alt="Skeleton Terrapus">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Health</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Speed</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Defense</span><span class="mob-stat-value">N/A</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Weakness</span><span class="mob-stat-value">N/A</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<!-- ==================== WEAPONS PAGE ==================== -->
 <div class="page" id="page-weapons">
   <h1><img src="./assets/icons/weapon-pistol.png" class="item-icon" alt="Weapons"> Weapons & Combat</h1>
   <p>Deepworld features ranged firearms, melee weapons, and bombs. Ranged weapons consume steam to fire. Weapons can be upgraded using Diamond and Onyx Weapon Kits.</p>
