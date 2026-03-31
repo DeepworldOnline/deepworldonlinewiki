@@ -924,27 +924,94 @@
   <p>Deepworld features ranged firearms, melee weapons, and bombs. Ranged weapons consume steam to fire. Weapons can be upgraded using Diamond and Onyx Weapon Kits.</p>
   <img class="wiki-img" src="./assets/images/yt-weapon-combat.jpg" alt="Combat" style="max-width:100%;margin-bottom:16px;">
 
-  <h2><img src="./assets/icons/part-gun-barrel.png" class="item-icon" alt=""> Gun Parts (Craft First)</h2>
-  <p>Before crafting any ranged weapon, you need to craft the component parts:</p>
-  <table class="wiki-table">
-    <thead><tr><th>Part</th><th>Recipe</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/part-gun-barrel.png" class="item-icon" alt="">Gun Barrel</td><td><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">1x Iron + <img src="./assets/icons/ore-brass.png" class="item-icon-sm" alt="">1x Brass</td></tr>
-      <tr><td><img src="./assets/icons/part-pistol-stock.png" class="item-icon" alt="">Pistol Stock</td><td><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">1x Iron + <img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">1x Wood</td></tr>
-      <tr><td><img src="./assets/icons/part-musket-stock.png" class="item-icon" alt="">Musket Stock</td><td><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">1x Iron + <img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">2x Wood</td></tr>
-    </tbody>
-  </table>
+  <!-- WEAPON CATEGORY GRID -->
+  <div class="weapon-cat-grid">
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/weapon-pistol.png" alt="Pistols">
+      <div class="wcc-name">Pistols</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/weapon-musket.png" alt="Muskets">
+      <div class="wcc-name">Muskets</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/weapon-flamethrower.png" alt="Elemental">
+      <div class="wcc-name">Elemental</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/weapon-rapier.png" alt="Melee">
+      <div class="wcc-name">Melee</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/weapon-sledgehammer.png" alt="Bludgeoning">
+      <div class="wcc-name">Bludgeoning</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/bomb-standard.png" alt="Bombs">
+      <div class="wcc-name">Bombs</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/consume-upgrade-diamond.png" alt="Upgrades">
+      <div class="wcc-name">Upgrade Kits</div>
+    </div>
+    <div class="weapon-cat-card">
+      <img src="./assets/icons/part-gun-barrel.png" alt="Parts">
+      <div class="wcc-name">Gun Parts</div>
+    </div>
+  </div>
 
-  <h2><img src="./assets/icons/consume-upgrade-diamond.png" class="item-icon" alt=""> Weapon Upgrade Kits</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Kit</th><th>Upgrade</th><th>Recipe</th><th>Skill Req</th></tr></thead>
-    <tbody>
-      <tr><td class="rarity-rare"><img src="./assets/icons/consume-upgrade-diamond.png" class="item-icon" alt="">Diamond Weapon Kit</td><td>Base &rarr; MK2</td><td><img src="./assets/icons/ore-diamond.png" class="item-icon-sm" alt="">3x Diamond + <img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">3x Iron + <img src="./assets/icons/ore-beryllium.png" class="item-icon-sm" alt="">3x Beryllium + <img src="./assets/icons/acc-schematic.png" class="item-icon-sm" alt="">Schematic</td><td>Engineering 8</td></tr>
-      <tr><td class="rarity-epic"><img src="./assets/icons/consume-upgrade-onyx.png" class="item-icon" alt="">Onyx Weapon Kit</td><td>Base &rarr; MK3</td><td><img src="./assets/icons/ore-onyx.png" class="item-icon-sm" alt="">2x Onyx + <img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">3x Iron + <img src="./assets/icons/ore-beryllium.png" class="item-icon-sm" alt="">3x Beryllium + <img src="./assets/icons/acc-schematic.png" class="item-icon-sm" alt="">Schematic</td><td>Engineering 10</td></tr>
-      <tr><td class="rarity-rare">Diamond Turret Kit</td><td>Turret MK1 &rarr; MK2</td><td>&mdash;</td><td>&mdash;</td></tr>
-      <tr><td class="rarity-epic">Onyx Turret Kit</td><td>Turret MK2 &rarr; MK3</td><td>&mdash;</td><td>&mdash;</td></tr>
-    </tbody>
-  </table>
+  <!-- GUN PARTS DETAIL -->
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/part-gun-barrel.png" class="item-icon" alt=""> Gun Parts (Craft First)</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Before crafting any ranged weapon, you need to craft the component parts. These parts combine to form the base of each weapon type.</p>
+        <table class="wiki-table">
+          <thead><tr><th>Part</th><th>Recipe</th></tr></thead>
+          <tbody>
+            <tr><td><img src="./assets/icons/part-gun-barrel.png" class="item-icon" alt="">Gun Barrel</td><td><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">1x Iron + <img src="./assets/icons/ore-brass.png" class="item-icon-sm" alt="">1x Brass</td></tr>
+            <tr><td><img src="./assets/icons/part-pistol-stock.png" class="item-icon" alt="">Pistol Stock</td><td><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">1x Iron + <img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">1x Wood</td></tr>
+            <tr><td><img src="./assets/icons/part-musket-stock.png" class="item-icon" alt="">Musket Stock</td><td><img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">1x Iron + <img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">2x Wood</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/part-gun-barrel.png" class="mob-detail-img" alt="Gun Barrel">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Req Skill</span><span class="mob-stat-value">Building 2+</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Parts</span><span class="mob-stat-value">3 types</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- UPGRADE KITS DETAIL -->
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/consume-upgrade-diamond.png" class="item-icon" alt=""> Weapon Upgrade Kits</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Upgrade kits transform base weapons into higher-tier MK2 or MK3 variants, increasing damage and fire rate. Apply to a weapon you already own.</p>
+        <table class="wiki-table">
+          <thead><tr><th>Kit</th><th>Upgrade</th><th>Recipe</th><th>Skill</th></tr></thead>
+          <tbody>
+            <tr><td class="rarity-rare"><img src="./assets/icons/consume-upgrade-diamond.png" class="item-icon" alt="">Diamond Weapon Kit</td><td>Base &rarr; MK2</td><td><img src="./assets/icons/ore-diamond.png" class="item-icon-sm" alt="">3x Diamond + <img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">3x Iron + <img src="./assets/icons/ore-beryllium.png" class="item-icon-sm" alt="">3x Beryllium + <img src="./assets/icons/acc-schematic.png" class="item-icon-sm" alt="">Schematic</td><td>Engineering 8</td></tr>
+            <tr><td class="rarity-epic"><img src="./assets/icons/consume-upgrade-onyx.png" class="item-icon" alt="">Onyx Weapon Kit</td><td>Base &rarr; MK3</td><td><img src="./assets/icons/ore-onyx.png" class="item-icon-sm" alt="">2x Onyx + <img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">3x Iron + <img src="./assets/icons/ore-beryllium.png" class="item-icon-sm" alt="">3x Beryllium + <img src="./assets/icons/acc-schematic.png" class="item-icon-sm" alt="">Schematic</td><td>Engineering 10</td></tr>
+            <tr><td class="rarity-rare">Diamond Turret Kit</td><td>Turret MK1 &rarr; MK2</td><td>&mdash;</td><td>&mdash;</td></tr>
+            <tr><td class="rarity-epic">Onyx Turret Kit</td><td>Turret MK2 &rarr; MK3</td><td>&mdash;</td><td>&mdash;</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/consume-upgrade-onyx.png" class="mob-detail-img" alt="Onyx Weapon Kit">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Diamond Kit</span><span class="mob-stat-value">Eng. 8</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Onyx Kit</span><span class="mob-stat-value">Eng. 10</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <h2>Ranged Weapons</h2>
   <img class="wiki-img" src="./assets/images/yt-weapon-crafting.jpg" alt="Weapon Crafting" style="max-width:100%;margin-bottom:12px;">
@@ -1055,60 +1122,176 @@
   <p>Tools are essential for mining, digging, gardening, and creature catching. Higher tiers provide more mining power and faster operation.</p>
   <img class="wiki-img" src="./assets/images/yt-gameplay-mining.jpg" alt="Mining" style="max-width:100%;margin-bottom:16px;">
 
-  <h2><img src="./assets/icons/tool-pickaxe.png" class="item-icon" alt=""> Pickaxes</h2>
-  <p>Primary mining tool. Higher power means faster mining and ability to break tougher blocks.</p>
-  <table class="wiki-table">
-    <thead><tr><th>Pickaxe</th><th>Power</th><th>Damage</th><th>Crafting</th><th>Notes</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/tool-pickaxe.png" class="item-icon" alt="">Pickaxe</td><td>1.4</td><td>0.125</td><td><img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">Wood + Iron Rubble</td><td>Starter tier</td></tr>
-      <tr><td><img src="./assets/icons/tool-pickaxe-fine.png" class="item-icon" alt="">Fine Pickaxe</td><td>1.9</td><td>0.175</td><td><img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">Wood + <img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">Iron + <img src="./assets/icons/ore-resin.png" class="item-icon-sm" alt="">Resin</td><td>&mdash;</td></tr>
-      <tr><td><img src="./assets/icons/tool-pickaxe-diamond.png" class="item-icon" alt="">Diamond Pickaxe</td><td>2.35</td><td>0.225</td><td>Diamond tier materials</td><td>Requires <img src="./assets/icons/ore-diamond.png" class="item-icon-sm" alt="">Diamond ore</td></tr>
-      <tr><td><img src="./assets/icons/tool-pickaxe-onyx.png" class="item-icon" alt="">Onyx Pickaxe</td><td>2.75</td><td>0.275</td><td>Onyx tier materials</td><td>Requires <img src="./assets/icons/ore-onyx.png" class="item-icon-sm" alt="">Onyx</td></tr>
-      <tr><td><img src="./assets/icons/tool-pickaxe-platinum.png" class="item-icon" alt="">Platinum Pickaxe</td><td>2.75</td><td>0.275</td><td><img src="./assets/icons/tool-pickaxe-onyx.png" class="item-icon-sm" alt="">Onyx Pickaxe + 100x <img src="./assets/icons/ore-platinum.png" class="item-icon-sm" alt="">Platinum Ore</td><td>Building 9. Highest tier</td></tr>
-    </tbody>
-  </table>
+  <!-- TOOL CATEGORY GRID -->
+  <div class="tool-cat-grid">
+    <div class="tool-cat-card">
+      <img src="./assets/icons/tool-pickaxe.png" alt="Pickaxes">
+      <div class="tcc-name">Pickaxes</div>
+      <div class="tcc-desc">Mining &amp; block breaking</div>
+    </div>
+    <div class="tool-cat-card">
+      <img src="./assets/icons/tool-shovel.png" alt="Shovels">
+      <div class="tcc-name">Shovels</div>
+      <div class="tcc-desc">Dig through terrain</div>
+    </div>
+    <div class="tool-cat-card">
+      <img src="./assets/icons/tool-spade.png" alt="Spades">
+      <div class="tcc-name">Spades</div>
+      <div class="tcc-desc">Horticulture &amp; bulbs</div>
+    </div>
+    <div class="tool-cat-card">
+      <img src="./assets/icons/tool-net.png" alt="Nets">
+      <div class="tcc-name">Nets</div>
+      <div class="tcc-desc">Catch insects &amp; creatures</div>
+    </div>
+  </div>
 
-  <h2><img src="./assets/icons/tool-shovel.png" class="item-icon" alt=""> Shovels</h2>
-  <p>Dig through protected areas. Useful for accessing blocked-off sections.</p>
-  <table class="wiki-table">
-    <thead><tr><th>Shovel</th><th>Tier</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/tool-shovel.png" class="item-icon" alt="">Shovel</td><td>Base</td></tr>
-      <tr><td><img src="./assets/icons/tool-shovel.png" class="item-icon" alt="">Diamond Shovel</td><td>Diamond</td></tr>
-      <tr><td><img src="./assets/icons/tool-shovel.png" class="item-icon" alt="">Onyx Shovel</td><td>Onyx</td></tr>
-      <tr><td><img src="./assets/icons/tool-shovel.png" class="item-icon" alt="">Platinum Shovel</td><td>Platinum (highest)</td></tr>
-    </tbody>
-  </table>
+  <!-- PICKAXES DETAIL -->
+  <div class="mob-detail" id="tool-detail-pickaxes">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/tool-pickaxe.png" class="item-icon" alt=""> Pickaxes</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The primary mining tool. Higher power means faster mining speed and the ability to break tougher blocks deeper underground. Upgrade your pickaxe as you progress through the ore tiers.</p>
+        <table class="wiki-table">
+          <thead><tr><th>Pickaxe</th><th>Power</th><th>Damage</th><th>Crafting</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><img src="./assets/icons/tool-pickaxe.png" class="item-icon" alt="">Pickaxe</td><td>1.4</td><td>0.125</td><td><img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">Wood + Iron Rubble</td><td>Starter tier</td></tr>
+            <tr><td><img src="./assets/icons/tool-pickaxe-fine.png" class="item-icon" alt="">Fine Pickaxe</td><td>1.9</td><td>0.175</td><td><img src="./assets/icons/ore-wood.png" class="item-icon-sm" alt="">Wood + <img src="./assets/icons/ore-iron.png" class="item-icon-sm" alt="">Iron + <img src="./assets/icons/ore-resin.png" class="item-icon-sm" alt="">Resin</td><td>&mdash;</td></tr>
+            <tr><td><img src="./assets/icons/tool-pickaxe-diamond.png" class="item-icon" alt="">Diamond Pickaxe</td><td>2.35</td><td>0.225</td><td>Diamond tier materials</td><td>Requires <img src="./assets/icons/ore-diamond.png" class="item-icon-sm" alt="">Diamond</td></tr>
+            <tr><td><img src="./assets/icons/tool-pickaxe-onyx.png" class="item-icon" alt="">Onyx Pickaxe</td><td>2.75</td><td>0.275</td><td>Onyx tier materials</td><td>Requires <img src="./assets/icons/ore-onyx.png" class="item-icon-sm" alt="">Onyx</td></tr>
+            <tr><td><img src="./assets/icons/tool-pickaxe-platinum.png" class="item-icon" alt="">Platinum Pickaxe</td><td>2.75</td><td>0.275</td><td><img src="./assets/icons/tool-pickaxe-onyx.png" class="item-icon-sm" alt="">Onyx Pickaxe + 100x <img src="./assets/icons/ore-platinum.png" class="item-icon-sm" alt="">Platinum</td><td>Building 9 &mdash; highest tier</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/tool-pickaxe-platinum.png" class="mob-detail-img" alt="Platinum Pickaxe">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">5</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Max Power</span><span class="mob-stat-value">2.75</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Skill</span><span class="mob-stat-value">Mining</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <h2><img src="./assets/icons/tool-spade.png" class="item-icon" alt=""> Spades</h2>
-  <p>Used with the Horticulture skill. Spades recoup bulbs when mining flowers, allowing you to replant them.</p>
-  <table class="wiki-table">
-    <thead><tr><th>Spade</th><th>Tier</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/tool-spade.png" class="item-icon" alt="">Spade</td><td>Base</td></tr>
-      <tr><td><img src="./assets/icons/tool-spade.png" class="item-icon" alt="">Diamond Spade</td><td>Diamond</td></tr>
-      <tr><td><img src="./assets/icons/tool-spade.png" class="item-icon" alt="">Onyx Spade</td><td>Onyx</td></tr>
-      <tr><td><img src="./assets/icons/tool-spade.png" class="item-icon" alt="">Platinum Spade</td><td>Platinum (highest)</td></tr>
-    </tbody>
-  </table>
+  <!-- SHOVELS DETAIL -->
+  <div class="mob-detail" id="tool-detail-shovels">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/tool-shovel.png" class="item-icon" alt=""> Shovels</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Shovels are used to dig through terrain quickly. They are especially useful for accessing blocked-off areas and tunneling. Higher-tier shovels dig faster and can handle tougher materials.</p>
+        <div class="tier-row"><img src="./assets/icons/tool-shovel.png" alt=""><span class="tr-name">Shovel</span><span class="tr-stat">Base</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-shovel.png" alt=""><span class="tr-name">Diamond Shovel</span><span class="tr-stat">Diamond tier</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-shovel.png" alt=""><span class="tr-name">Onyx Shovel</span><span class="tr-stat">Onyx tier</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-shovel.png" alt=""><span class="tr-name">Platinum Shovel</span><span class="tr-stat">Highest tier</span></div>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/tool-shovel.png" class="mob-detail-img" alt="Shovel">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">4</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Use</span><span class="mob-stat-value">Digging</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <h2><img src="./assets/icons/tool-net.png" class="item-icon" alt=""> Nets</h2>
-  <p>Used to catch butterflies and insects. Higher-tier nets increase catch success rate.</p>
-  <table class="wiki-table">
-    <thead><tr><th>Net</th><th>Tier</th></tr></thead>
-    <tbody>
-      <tr><td><img src="./assets/icons/tool-net.png" class="item-icon" alt="">Net</td><td>Base</td></tr>
-      <tr><td><img src="./assets/icons/tool-net.png" class="item-icon" alt="">Diamond Net</td><td>Diamond</td></tr>
-      <tr><td><img src="./assets/icons/tool-net.png" class="item-icon" alt="">Onyx Net</td><td>Onyx</td></tr>
-      <tr><td><img src="./assets/icons/tool-net.png" class="item-icon" alt="">Platinum Net</td><td>Platinum (highest)</td></tr>
-    </tbody>
-  </table>
+  <!-- SPADES DETAIL -->
+  <div class="mob-detail" id="tool-detail-spades">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/tool-spade.png" class="item-icon" alt=""> Spades</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Spades are used with the Horticulture skill. When mining flowers, a Spade gives you a chance to reclaim the bulb for replanting. The higher your Horticulture skill, the better the reclaim chance. Diamond and Onyx versions improve this further.</p>
+        <div class="tier-row"><img src="./assets/icons/tool-spade.png" alt=""><span class="tr-name">Spade</span><span class="tr-stat">Base</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-spade.png" alt=""><span class="tr-name">Diamond Spade</span><span class="tr-stat">Diamond tier</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-spade.png" alt=""><span class="tr-name">Onyx Spade</span><span class="tr-stat">Onyx tier</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-spade.png" alt=""><span class="tr-name">Platinum Spade</span><span class="tr-stat">Highest tier</span></div>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/tool-spade.png" class="mob-detail-img" alt="Spade">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">4</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Skill</span><span class="mob-stat-value">Horticulture</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Use</span><span class="mob-stat-value">Bulb reclaim</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NETS DETAIL -->
+  <div class="mob-detail" id="tool-detail-nets">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/tool-net.png" class="item-icon" alt=""> Nets</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Nets are used to catch butterflies and insects found in the wild. Successfully catching a creature adds it to your collection. Higher-tier nets have a better success rate when attempting to catch fast or rare creatures.</p>
+        <div class="tier-row"><img src="./assets/icons/tool-net.png" alt=""><span class="tr-name">Net</span><span class="tr-stat">Base</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-net.png" alt=""><span class="tr-name">Diamond Net</span><span class="tr-stat">Diamond tier</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-net.png" alt=""><span class="tr-name">Onyx Net</span><span class="tr-stat">Onyx tier</span></div>
+        <div class="tier-row"><img src="./assets/icons/tool-net.png" alt=""><span class="tr-name">Platinum Net</span><span class="tr-stat">Highest tier</span></div>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/tool-net.png" class="mob-detail-img" alt="Net">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">4</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Use</span><span class="mob-stat-value">Catch creatures</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <!-- ==================== ITEMS PAGE ==================== -->
 <div class="page" id="page-items">
   <h1><img src="./assets/icons/crystal-purple.png" class="item-icon" alt="Items"> Items & Resources</h1>
-  <p>A comprehensive list of resources, ores, crystals, and other items found throughout Deepworld.</p>
+  <p>A comprehensive list of resources, ores, crystals, mushrooms, consumables, containers, fossils, keys, and currency found throughout Deepworld.</p>
+
+  <!-- ITEM CATEGORY GRID -->
+  <div class="item-cat-grid">
+    <div class="item-cat-card">
+      <img src="./assets/icons/ore-iron.png" alt="Ores">
+      <div class="icc-name">Ores</div>
+      <div class="icc-count">20 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/crystal-red.png" alt="Crystals">
+      <div class="icc-name">Crystals</div>
+      <div class="icc-count">8 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/mush-portabella.png" alt="Mushrooms">
+      <div class="icc-name">Mushrooms</div>
+      <div class="icc-count">10 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/fossil-trex.png" alt="Fossils">
+      <div class="icc-name">Fossils</div>
+      <div class="icc-count">6 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/container-chest.png" alt="Containers">
+      <div class="icc-name">Containers</div>
+      <div class="icc-count">9 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/bomb-standard.png" alt="Bombs">
+      <div class="icc-name">Bombs</div>
+      <div class="icc-count">9 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/consume-canister.png" alt="Consumables">
+      <div class="icc-name">Consumables</div>
+      <div class="icc-count">12 types</div>
+    </div>
+    <div class="item-cat-card">
+      <img src="./assets/icons/key-skeleton.png" alt="Keys">
+      <div class="icc-name">Keys</div>
+      <div class="icc-count">4 types</div>
+    </div>
+  </div>
 
   <h2><img src="./assets/icons/ore-iron.png" class="item-icon" alt=""> Ores</h2>
   <table class="wiki-table">
@@ -1246,104 +1429,303 @@
 <!-- ==================== SKILLS PAGE ==================== -->
 <div class="page" id="page-skills">
   <h1>Skills</h1>
-  <p>Deepworld has 11 skills that define your character's abilities. Each skill can be leveled up to improve its effects. Without Premium, the max skill level is 3.</p>
+  <p>Deepworld has 11 skills that define your character's abilities. Each skill can be leveled up to improve its effects. Without Premium, the max skill level is 3. Use Skill Points earned on level-up to invest in any skill.</p>
 
-  <div class="skill-grid">
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-boot-brass.png" class="item-icon-sm" alt=""> 1. Agility</div>
-      <div class="card-body">
-        <p>Maneuver better &amp; faster, reduce physical damage. Also improves climbing, swimming, jump height, and stealth cloak duration.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-boot-brass.png" class="item-icon-sm" alt="">Brass Boot (+1), <img src="./assets/icons/acc-boot-diamond.png" class="item-icon-sm" alt="">Diamond Boot (+2), <img src="./assets/icons/acc-boot-onyx.png" class="item-icon-sm" alt="">Onyx Boot (+3)</p>
-      </div>
+  <!-- SKILL CARD GRID -->
+  <div class="skill-grid-cards">
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-boot-brass.png" alt="Agility">
+      <div class="skill-card-name">Agility</div>
+      <div class="skill-card-desc">Maneuver better &amp; faster, reduce physical damage</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt=""> 2. Barter</div>
-      <div class="card-body">
-        <p>Trading with <img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">androids using <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings. Enables access to Barter Androids and improved trade deals.</p>
-        <p><strong>Currency:</strong> <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings (obtained from Brain kills)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-shillings.png" alt="Barter">
+      <div class="skill-card-name">Barter</div>
+      <div class="skill-card-desc">Improved trading rates and Android market access</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header">3. Building</div>
-      <div class="card-body">
-        <p>Craft better items, place blocks farther away. Essential for base building and crafting progression.</p>
-        <p><strong>Accessories:</strong> T-Square</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/tool-hammer.png" alt="Building">
+      <div class="skill-card-name">Building</div>
+      <div class="skill-card-desc">Craft better items, place blocks farther away</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-scope-brass.png" class="item-icon-sm" alt=""> 4. Combat</div>
-      <div class="card-body">
-        <p>Improves gun efficiency, increases critical hit rate &amp; bomb damage.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-scope-brass.png" class="item-icon-sm" alt="">Brass Scope (+1), Diamond Scope (+2), Onyx Scope (+3)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-scope-brass.png" alt="Combat">
+      <div class="skill-card-name">Combat</div>
+      <div class="skill-card-desc">Improves gun efficiency, critical hit rate &amp; bomb damage</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header">5. Engineering</div>
-      <div class="card-body">
-        <p>Craft &amp; use better items, increased Steampack efficiency. Required for elemental weapons and advanced crafting.</p>
-        <p><strong>Accessories:</strong> Sprocket, Widget</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-schematic.png" alt="Engineering">
+      <div class="skill-card-name">Engineering</div>
+      <div class="skill-card-desc">Craft &amp; use better items, increased Steampack efficiency</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt=""> 6. Horticulture</div>
-      <div class="card-body">
-        <p>Plant fancier bulbs, better chance of reclaiming a bulb when mining flowers using a <img src="./assets/icons/tool-spade.png" class="item-icon-sm" alt="">Spade. Enables farming and flower cultivation.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt="">Rake (+1), Diamond Rake (+2), Onyx Rake (+3)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-rake.png" alt="Horticulture">
+      <div class="skill-card-name">Horticulture</div>
+      <div class="skill-card-desc">Plant fancier bulbs, better bulb reclaim chance</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-clover.png" class="item-icon-sm" alt=""> 7. Luck</div>
-      <div class="card-body">
-        <p>Unlocks better loot, loot higher quantities from crates, chests, and containers.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-clover.png" class="item-icon-sm" alt="">Clover (+1), <img src="./assets/icons/acc-horseshoe.png" class="item-icon-sm" alt="">Horseshoe (+2), <img src="./assets/icons/acc-rabbitfoot.png" class="item-icon-sm" alt="">Rabbit Foot (+3)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-clover.png" alt="Luck">
+      <div class="skill-card-name">Luck</div>
+      <div class="skill-card-desc">Unlocks better loot, higher loot quantities</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt=""> 8. Mining</div>
-      <div class="card-body">
-        <p>Mine faster &amp; deeper, increases mining bonuses. Level 2 unlocks deeper layers, Level 4 unlocks more block types.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt="">Mining Glove (+1), Diamond Glove (+2), Onyx Glove (+3)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-glove.png" alt="Mining">
+      <div class="skill-card-name">Mining</div>
+      <div class="skill-card-desc">Mine faster &amp; deeper, increases mining bonuses</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt=""> 9. Perception</div>
-      <div class="card-body">
-        <p>Unlocks additional map abilities, increases zoom. L2: See teleporters. L3: See explored areas. L4+: Zoom out further.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt="">Stopwatch (+1), Pocketwatch (+2), Onyx Pocketwatch (+3)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-stopwatch.png" alt="Perception">
+      <div class="skill-card-name">Perception</div>
+      <div class="skill-card-desc">Unlocks additional map abilities, increases zoom</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-seashell.png" class="item-icon-sm" alt=""> 10. Stamina</div>
-      <div class="card-body">
-        <p>Increases max HP and unlocks additional accessory slots. More stamina = more survivability.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-seashell.png" class="item-icon-sm" alt="">Seashell (+1), Sand Dollar (+2), Conch (+3)</p>
-      </div>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-seashell.png" alt="Stamina">
+      <div class="skill-card-name">Stamina</div>
+      <div class="skill-card-desc">Increases accessory slots and steam capacity</div>
     </div>
-    <div class="skill-card">
-      <div class="card-header"><img src="./assets/icons/acc-knife.png" class="item-icon-sm" alt=""> 11. Survival</div>
-      <div class="card-body">
-        <p>Reduced acid and fire damage. L2: Craft <img src="./assets/icons/consume-jerky.png" class="item-icon-sm" alt="">Jerky. L3: Craft <img src="./assets/icons/consume-jerky-power.png" class="item-icon-sm" alt="">Power Jerky. Essential for hostile biomes.</p>
-        <p><strong>Accessories:</strong> <img src="./assets/icons/acc-knife.png" class="item-icon-sm" alt="">Survival Knife (+1), Diamond Survival Knife (+2), Onyx Survival Knife (+3)</p>
+
+    <div class="skill-card-new">
+      <img class="skill-card-icon" src="./assets/icons/acc-knife.png" alt="Survival">
+      <div class="skill-card-name">Survival</div>
+      <div class="skill-card-desc">Reduces environmental damage, improves HP regeneration</div>
+    </div>
+
+  </div>
+
+  <!-- DETAILED SKILL INFO -->
+  <div class="mob-detail" id="skill-detail-agility">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-boot-brass.png" class="item-icon" alt=""> Agility</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Agility improves how your character moves and defends itself physically. Higher Agility means faster movement, better climbing, improved swimming, greater jump height, and reduced physical damage received. It also extends Stealth Cloak duration.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-boot-brass.png" class="item-icon-sm" alt=""> Power Boot (+1) &nbsp;&bull;&nbsp; <img src="./assets/icons/acc-boot-diamond.png" class="item-icon-sm" alt=""> Diamond Boot (+2) &nbsp;&bull;&nbsp; <img src="./assets/icons/acc-boot-onyx.png" class="item-icon-sm" alt=""> Onyx Boot (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-boot-onyx.png" class="mob-detail-img" alt="Agility">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
       </div>
     </div>
   </div>
 
-  <h2>Skill Boosters Table</h2>
-  <table class="wiki-table">
-    <thead><tr><th>Skill</th><th>+1</th><th>+2</th><th>+3</th></tr></thead>
-    <tbody>
-      <tr><td>Agility</td><td><img src="./assets/icons/acc-boot-brass.png" class="item-icon-sm" alt="">Brass Boot</td><td><img src="./assets/icons/acc-boot-diamond.png" class="item-icon-sm" alt="">Diamond Boot</td><td><img src="./assets/icons/acc-boot-onyx.png" class="item-icon-sm" alt="">Onyx Boot</td></tr>
-      <tr><td>Combat</td><td><img src="./assets/icons/acc-scope-brass.png" class="item-icon-sm" alt="">Brass Scope</td><td>Diamond Scope</td><td>Onyx Scope</td></tr>
-      <tr><td>Horticulture</td><td><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt="">Rake</td><td>Diamond Rake</td><td>Onyx Rake</td></tr>
-      <tr><td>Luck</td><td><img src="./assets/icons/acc-clover.png" class="item-icon-sm" alt="">Clover</td><td><img src="./assets/icons/acc-horseshoe.png" class="item-icon-sm" alt="">Horseshoe</td><td><img src="./assets/icons/acc-rabbitfoot.png" class="item-icon-sm" alt="">Rabbit Foot</td></tr>
-      <tr><td>Mining</td><td><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt="">Mining Glove</td><td>Diamond Glove</td><td>Onyx Glove</td></tr>
-      <tr><td>Perception</td><td><img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt="">Stopwatch</td><td>Pocketwatch</td><td>Onyx Pocketwatch</td></tr>
-      <tr><td>Stamina</td><td><img src="./assets/icons/acc-seashell.png" class="item-icon-sm" alt="">Seashell</td><td>Sand Dollar</td><td>Conch</td></tr>
-      <tr><td>Survival</td><td><img src="./assets/icons/acc-knife.png" class="item-icon-sm" alt="">Survival Knife</td><td>Diamond Survival Knife</td><td>Onyx Survival Knife</td></tr>
-      <tr><td>Building</td><td colspan="3">T-Square</td></tr>
-      <tr><td>Engineering</td><td colspan="3">Sprocket, Widget</td></tr>
-    </tbody>
-  </table>
+  <div class="mob-detail" id="skill-detail-barter">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-shillings.png" class="item-icon" alt=""> Barter</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Barter governs trading with <img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">Androids using <img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings as currency. Higher Barter unlocks access to more Android types and improves trade rates, letting you buy valuable items for fewer Shillings.</p>
+        <h4>Currency</h4>
+        <p><img src="./assets/icons/acc-shillings.png" class="item-icon-sm" alt="">Shillings are obtained primarily from Brain kills and special loot pools. Bert the Android is the main trading NPC.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/mob-android.png" class="mob-detail-img" alt="Barter">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Currency</span><span class="mob-stat-value">Shillings</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-building">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/tool-hammer.png" class="item-icon" alt=""> Building</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Building is essential for progression. It unlocks crafting of better weapons, tools, and structures, and allows placing blocks farther from your character. Most weapon and tool recipes require a minimum Building level.</p>
+        <h4>Key Unlocks</h4>
+        <p>Building 2: Pistol, Hatchet &mdash; Building 3: Musket &mdash; Building 4: Diamond Hatchet, Rapier &mdash; Building 8: Onyx Rapier &mdash; Building 9: Platinum Pickaxe</p>
+        <h4>Accessories</h4>
+        <p>T-Square (bonus level)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/tool-hammer.png" class="mob-detail-img" alt="Building">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10+</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Req'd for</span><span class="mob-stat-value">Most weapons</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-combat">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-scope-brass.png" class="item-icon" alt=""> Combat</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Combat improves your effectiveness in fights. It increases gun efficiency (reduced steam cost), raises critical hit rate, and boosts bomb damage. Essential for players focused on PvE or PvP combat.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-scope-brass.png" class="item-icon-sm" alt=""> Power Scope (+1) &nbsp;&bull;&nbsp; Diamond Scope (+2) &nbsp;&bull;&nbsp; Onyx Scope (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-scope-brass.png" class="mob-detail-img" alt="Combat">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-engineering">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-schematic.png" class="item-icon" alt=""> Engineering</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Engineering unlocks elemental weapons (Steam, Flame, Frost, Acid, Energy), advanced crafting recipes, and increases Steampack efficiency. Essential for the crafting of Androids and turrets.</p>
+        <h4>Key Unlocks</h4>
+        <p>Engineering 3: Steam Pistol &mdash; Engineering 5: Flame/Frost Pistols &mdash; Engineering 6: Android Crate, Energy Pistol &mdash; Engineering 8: Diamond Weapon Kit &mdash; Engineering 10: Onyx Weapon Kit</p>
+        <h4>Accessories</h4>
+        <p>Sprocket, Widget (bonus levels)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-schematic.png" class="mob-detail-img" alt="Engineering">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10+</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Req'd for</span><span class="mob-stat-value">Elemental weapons</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-horticulture">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-rake.png" class="item-icon" alt=""> Horticulture</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Horticulture governs plant cultivation. Higher Horticulture lets you plant fancier bulbs and increases the chance of reclaiming a bulb when mining flowers with a <img src="./assets/icons/tool-spade.png" class="item-icon-sm" alt="">Spade.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt=""> Rake (+1) &nbsp;&bull;&nbsp; Diamond Rake (+2) &nbsp;&bull;&nbsp; Onyx Rake (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-rake.png" class="mob-detail-img" alt="Horticulture">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-luck">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-clover.png" class="item-icon" alt=""> Luck</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Luck improves loot quality and quantity from containers, chests, and crates. Higher Luck unlocks better item pools and increases the number of items received per loot roll.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-clover.png" class="item-icon-sm" alt=""> Clover (+1) &nbsp;&bull;&nbsp; <img src="./assets/icons/acc-horseshoe.png" class="item-icon-sm" alt=""> Horseshoe (+2) &nbsp;&bull;&nbsp; <img src="./assets/icons/acc-rabbitfoot.png" class="item-icon-sm" alt=""> Rabbit Foot (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-rabbitfoot.png" class="mob-detail-img" alt="Luck">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-mining">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-glove.png" class="item-icon" alt=""> Mining</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Mining increases your mining speed, allows you to mine deeper layers, and improves mining bonuses (more ore per swing). Level 2 unlocks access to deeper stone layers; higher levels unlock more block types and improve ore yield.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt=""> Mining Glove (+1) &nbsp;&bull;&nbsp; Diamond Mining Glove (+2) &nbsp;&bull;&nbsp; Onyx Mining Glove (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-glove.png" class="mob-detail-img" alt="Mining">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-perception">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-stopwatch.png" class="item-icon" alt=""> Perception</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Perception expands your awareness of the world. Each level unlocks new map abilities and increases your camera zoom range. Level 2: See teleporters on map. Level 3: See explored areas. Level 4+: Zoom out further.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt=""> Stopwatch (+1) &nbsp;&bull;&nbsp; Pocketwatch (+2) &nbsp;&bull;&nbsp; Onyx Pocketwatch (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-stopwatch.png" class="mob-detail-img" alt="Perception">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-stamina">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-seashell.png" class="item-icon" alt=""> Stamina</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Stamina is critical for survivability and build flexibility. Each level increases your accessory slot count and expands total steam capacity, letting you carry more accessories and use steam-powered equipment longer.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-seashell.png" class="item-icon-sm" alt=""> Seashell (+1) &nbsp;&bull;&nbsp; Sand Dollar (+2) &nbsp;&bull;&nbsp; Conch (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-seashell.png" class="mob-detail-img" alt="Stamina">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail" id="skill-detail-survival">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-knife.png" class="item-icon" alt=""> Survival</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Survival reduces environmental damage (acid rain, fire, cold) and improves health regeneration. It also unlocks crafting of food items. Level 2: Craft <img src="./assets/icons/consume-jerky.png" class="item-icon-sm" alt="">Jerky. Level 3: Craft <img src="./assets/icons/consume-jerky-power.png" class="item-icon-sm" alt="">Power Jerky.</p>
+        <h4>Accessories</h4>
+        <p><img src="./assets/icons/acc-knife.png" class="item-icon-sm" alt=""> Survival Knife (+1) &nbsp;&bull;&nbsp; Diamond Survival Knife (+2) &nbsp;&bull;&nbsp; Onyx Survival Knife (+3)</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-knife.png" class="mob-detail-img" alt="Survival">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Max Level</span><span class="mob-stat-value">10 (13 w/ acc)</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Acc Bonus</span><span class="mob-stat-value">+3 max</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">F2P Cap</span><span class="mob-stat-value">Level 3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <h2>Skill Progression</h2>
   <div class="card">
@@ -1368,93 +1750,248 @@
 <!-- ==================== ACCESSORIES PAGE ==================== -->
 <div class="page" id="page-accessories">
   <h1><img src="./assets/icons/acc-spyglass.png" class="item-icon" alt="Accessories"> Accessories</h1>
-  <p>Accessories are equippable items that boost skills, provide utilities, or grant special abilities. Accessory slots are limited by Stamina level.</p>
+  <p>Accessories are equippable items that boost skills, provide utility abilities, or grant special powers. The number of accessory slots is determined by your Stamina skill level.</p>
 
   <div class="note-box warning">
-    <strong>Skill Bonus Accessories Do NOT Stack.</strong> Only one skill bonus applies even if you equip multiple accessories of the same type or duplicates. The maximum bonus from any combination is <strong>+3 to any single skill</strong>. Example: equipping both a Stopwatch (+1) and an Onyx Pocketwatch (+3) still only gives +3 to Perception.
+    <strong>Skill Bonus Accessories Do NOT Stack.</strong> Only one skill bonus applies even if you equip multiple accessories of the same type or duplicates. The maximum bonus from any combination is <strong>+3 to any single skill</strong>. Example: equipping both a Stopwatch (+1) and an Onyx Pocketwatch (+3) still gives only +3 to Perception.
   </div>
 
-  <h2 style="color:#e8a020;">Skill Bonus Accessories</h2>
-  <div class="wiki-table-wrap">
-    <table class="wiki-table">
-      <thead><tr><th>Skill</th><th>+1</th><th>+2</th><th>+3</th></tr></thead>
-      <tbody>
-        <tr><td>Agility</td><td><img src="./assets/icons/acc-boot-brass.png" class="item-icon-sm" alt=""> Brass Boot</td><td><img src="./assets/icons/acc-boot-diamond.png" class="item-icon-sm" alt=""> Diamond Boot</td><td><img src="./assets/icons/acc-boot-onyx.png" class="item-icon-sm" alt=""> Onyx Boot</td></tr>
-        <tr><td>Combat</td><td><img src="./assets/icons/acc-scope-brass.png" class="item-icon-sm" alt=""> Power Scope</td><td>Diamond Scope</td><td>Onyx Scope</td></tr>
-        <tr><td>Horticulture</td><td><img src="./assets/icons/acc-rake.png" class="item-icon-sm" alt=""> Rake</td><td>Diamond Rake</td><td>Onyx Rake</td></tr>
-        <tr><td>Luck</td><td><img src="./assets/icons/acc-clover.png" class="item-icon-sm" alt=""> Clover</td><td><img src="./assets/icons/acc-horseshoe.png" class="item-icon-sm" alt=""> Horseshoe</td><td><img src="./assets/icons/acc-rabbitfoot.png" class="item-icon-sm" alt=""> Rabbit Foot</td></tr>
-        <tr><td>Mining</td><td><img src="./assets/icons/acc-glove.png" class="item-icon-sm" alt=""> Mining Glove</td><td>Diamond Mining Glove</td><td>Onyx Mining Glove</td></tr>
-        <tr><td>Perception</td><td><img src="./assets/icons/acc-stopwatch.png" class="item-icon-sm" alt=""> Stopwatch</td><td>Pocketwatch</td><td>Onyx Pocketwatch</td></tr>
-        <tr><td>Stamina</td><td><img src="./assets/icons/acc-seashell.png" class="item-icon-sm" alt=""> Seashell</td><td>Sand Dollar</td><td>Conch</td></tr>
-        <tr><td>Survival</td><td><img src="./assets/icons/acc-knife.png" class="item-icon-sm" alt=""> Survival Knife</td><td>Diamond Survival Knife</td><td>Onyx Survival Knife</td></tr>
-        <tr><td>Building</td><td colspan="3">T-Square</td></tr>
-        <tr><td>Engineering</td><td colspan="3">Sprocket, Widget</td></tr>
-      </tbody>
-    </table>
+  <h2>Equippable Skill Accessories</h2>
+  <p>Each skill has three tiers of accessory that grant +1, +2, or +3 to that skill. Only the highest bonus applies.</p>
+
+  <div class="acc-skill-grid">
+
+    <!-- Agility -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Agility</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-boot-brass.png" alt=""><span class="asc-tier-name">Power Boot</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-boot-diamond.png" alt=""><span class="asc-tier-name">Diamond Boot</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-boot-onyx.png" alt=""><span class="asc-tier-name">Onyx Boot</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Combat -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Combat</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-scope-brass.png" alt=""><span class="asc-tier-name">Power Scope</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-scope-brass.png" alt=""><span class="asc-tier-name">Diamond Scope</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-scope-brass.png" alt=""><span class="asc-tier-name">Onyx Scope</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Horticulture -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Horticulture</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-rake.png" alt=""><span class="asc-tier-name">Rake</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-rake.png" alt=""><span class="asc-tier-name">Diamond Rake</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-rake.png" alt=""><span class="asc-tier-name">Onyx Rake</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Luck -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Luck</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-clover.png" alt=""><span class="asc-tier-name">Clover</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-horseshoe.png" alt=""><span class="asc-tier-name">Horseshoe</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-rabbitfoot.png" alt=""><span class="asc-tier-name">Rabbit Foot</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Mining -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Mining</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-glove.png" alt=""><span class="asc-tier-name">Mining Glove</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-glove.png" alt=""><span class="asc-tier-name">Diamond Glove</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-glove.png" alt=""><span class="asc-tier-name">Onyx Glove</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Perception -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Perception</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-stopwatch.png" alt=""><span class="asc-tier-name">Stopwatch</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-stopwatch.png" alt=""><span class="asc-tier-name">Pocketwatch</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-stopwatch.png" alt=""><span class="asc-tier-name">Onyx Pocketwatch</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Stamina -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Stamina</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-seashell.png" alt=""><span class="asc-tier-name">Seashell</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-seashell.png" alt=""><span class="asc-tier-name">Sand Dollar</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-seashell.png" alt=""><span class="asc-tier-name">Conch</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
+    <!-- Survival -->
+    <div class="acc-skill-card">
+      <div class="asc-skill-name">Survival</div>
+      <div class="asc-tiers">
+        <div class="asc-tier"><img src="./assets/icons/acc-knife.png" alt=""><span class="asc-tier-name">Survival Knife</span><span class="asc-tier-bonus">+1</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-knife.png" alt=""><span class="asc-tier-name">Diamond S. Knife</span><span class="asc-tier-bonus">+2</span></div>
+        <div class="asc-tier"><img src="./assets/icons/acc-knife.png" alt=""><span class="asc-tier-name">Onyx S. Knife</span><span class="asc-tier-bonus">+3</span></div>
+      </div>
+    </div>
+
   </div>
 
+  <!-- Utility Accessories Detail Sections -->
   <h2>Utility Accessories</h2>
+
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-steampack.png" class="item-icon" alt=""> Steampack</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Steampack is a jetpack that enables flight. It consumes steam while active. Multiple tiers improve flight efficiency and steam consumption rate.</p>
+        <h4>Tiers</h4>
+        <p>Base Steampack &bull; Brass Steampack (+10% efficiency) &bull; Diamond Steampack &bull; Onyx Steampack</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-steampack.png" class="mob-detail-img" alt="Steampack">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Function</span><span class="mob-stat-value">Flight</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Fuel</span><span class="mob-stat-value">Steam</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">4</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-flashlight.png" class="item-icon" alt=""> Flashlight</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Flashlight illuminates dark underground areas. It consumes no steam and is an essential accessory for deep exploration. Higher tiers cast a wider and brighter beam.</p>
+        <h4>Tiers</h4>
+        <p>Brass Flashlight &bull; Diamond Flashlight &bull; Onyx Flashlight</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-flashlight.png" class="mob-detail-img" alt="Flashlight">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Function</span><span class="mob-stat-value">Lighting</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Fuel</span><span class="mob-stat-value">None</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-compressor.png" class="item-icon" alt=""> Compressor</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Compressor increases your total steam capacity, allowing you to carry more steam before needing to refill. Useful for long exploration sessions and extended Steampack use.</p>
+        <h4>Tiers</h4>
+        <p>Basic Compressor &bull; Standard Compressor &bull; Onyx Compressor</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-compressor.png" class="mob-detail-img" alt="Compressor">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Function</span><span class="mob-stat-value">Adds steam</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Stacks</span><span class="mob-stat-value">Yes</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Tiers</span><span class="mob-stat-value">3</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Purchase-Only Accessories</h2>
+  <div class="note-box">
+    <strong>Untradeable:</strong> The following accessories are available only through the in-game store and <strong>cannot be traded</strong> between players.
+  </div>
+
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-makeup.png" class="item-icon" alt=""> Makeup Kit</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Makeup Kit unlocks extended character customization options, allowing you to style your avatar with additional cosmetic options not available by default. Purchase-only and untradeable.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-makeup.png" class="mob-detail-img" alt="Makeup Kit">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Function</span><span class="mob-stat-value">Cosmetics</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Tradeable</span><span class="mob-stat-value">No</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-toolbelt.png" class="item-icon" alt=""> Toolbelt</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>The Toolbelt grants additional accessory slots beyond what your Stamina level provides, allowing you to equip more accessories simultaneously. Purchase-only and untradeable.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-toolbelt.png" class="mob-detail-img" alt="Toolbelt">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Function</span><span class="mob-stat-value">Extra slots</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Tradeable</span><span class="mob-stat-value">No</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mob-detail">
+    <div class="mob-detail-header"><h3><img src="./assets/icons/acc-exoskin.png" class="item-icon" alt=""> Exoskeletons</h3></div>
+    <div class="mob-detail-layout">
+      <div class="mob-detail-content">
+        <h4>Overview</h4>
+        <p>Exoskeletons are powerful wearable enhancements that provide major bonuses to specific skills and environmental protection. They further boost skills on top of normal accessories. Purchase-only and untradeable.</p>
+        <h4>Protection</h4>
+        <p>Exo-skin variants protect against acid rain, magma, and cold biome damage. Essential for prolonged exploration in extreme biomes.</p>
+      </div>
+      <div class="mob-detail-sidebar">
+        <img src="./assets/icons/acc-exoskin.png" class="mob-detail-img" alt="Exoskeleton">
+        <div class="mob-stats-box">
+          <div class="mob-stat"><span class="mob-stat-label">Function</span><span class="mob-stat-value">Skill boost + env.</span></div>
+          <div class="mob-stat"><span class="mob-stat-label">Tradeable</span><span class="mob-stat-value">No</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Other Accessories</h2>
   <div class="acc-grid">
     <div class="acc-item">
-      <img src="./assets/icons/acc-steampack.png" class="item-icon" alt="">
-      <div><div class="acc-name">Steampack (Jetpack)</div>
-      <div class="acc-desc">Enables flight. Tiers: Base, Brass (+10%), Diamond, Onyx</div></div>
-    </div>
-    <div class="acc-item">
-      <img src="./assets/icons/acc-compressor.png" class="item-icon" alt="">
-      <div><div class="acc-name">Compressor</div>
-      <div class="acc-desc">Increases total steam capacity. Tiers: Basic, Standard, Onyx</div></div>
-    </div>
-    <div class="acc-item">
-      <img src="./assets/icons/acc-flashlight.png" class="item-icon" alt="">
-      <div><div class="acc-name">Flashlight</div>
-      <div class="acc-desc">Provides lighting in dark areas. Tiers: Brass, Diamond, Onyx</div></div>
-    </div>
-    <div class="acc-item">
       <img src="./assets/icons/acc-exoskin.png" class="item-icon" alt="">
-      <div><div class="acc-name">Exo-skin</div>
-      <div class="acc-desc">Environmental immunity &mdash; protects from acid, magma, cold</div></div>
+      <div><div class="acc-name">Exo-skin</div><div class="acc-desc">Environmental immunity &mdash; acid, magma, cold protection</div></div>
     </div>
     <div class="acc-item">
       <img src="./assets/icons/acc-breathing.png" class="item-icon" alt="">
-      <div><div class="acc-name">Breathing Apparatus</div>
-      <div class="acc-desc">Unlimited breath underwater</div></div>
+      <div><div class="acc-name">Breathing Apparatus</div><div class="acc-desc">Unlimited breath underwater</div></div>
     </div>
     <div class="acc-item">
       <img src="./assets/icons/acc-battery.png" class="item-icon" alt="">
-      <div><div class="acc-name">Battery</div>
-      <div class="acc-desc">Powers <img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">Androids for extended operation</div></div>
+      <div><div class="acc-name">Battery</div><div class="acc-desc">Powers <img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">Androids for extended operation</div></div>
     </div>
     <div class="acc-item">
       <img src="./assets/icons/acc-lockpick.png" class="item-icon" alt="">
-      <div><div class="acc-name">Lockpick</div>
-      <div class="acc-desc">Opens locked containers without keys</div></div>
-    </div>
-    <div class="acc-item">
-      <img src="./assets/icons/acc-toolbelt.png" class="item-icon" alt="">
-      <div><div class="acc-name">Toolbelt</div>
-      <div class="acc-desc">Extra accessory slots (purchase)</div></div>
-    </div>
-    <div class="acc-item">
-      <img src="./assets/icons/acc-makeup.png" class="item-icon" alt="">
-      <div><div class="acc-name">Makeup Kit</div>
-      <div class="acc-desc">Character customization options (purchase)</div></div>
+      <div><div class="acc-name">Lockpick</div><div class="acc-desc">Opens locked containers without keys</div></div>
     </div>
     <div class="acc-item">
       <img src="./assets/icons/acc-schematic.png" class="item-icon" alt="">
-      <div><div class="acc-name">Schematic</div>
-      <div class="acc-desc">Required for advanced crafting recipes</div></div>
+      <div><div class="acc-name">Schematic</div><div class="acc-desc">Required for advanced crafting recipes</div></div>
     </div>
     <div class="acc-item">
       <img src="./assets/icons/acc-shillings.png" class="item-icon" alt="">
-      <div><div class="acc-name">Shillings</div>
-      <div class="acc-desc"><img src="./assets/icons/mob-android.png" class="item-icon-sm" alt="">Android trading currency (Barter skill)</div></div>
+      <div><div class="acc-name">Shillings</div><div class="acc-desc">Android trading currency (Barter skill)</div></div>
     </div>
   </div>
 
-  <div class="note-box">
-    <strong>Purchase-Only (Untradeable):</strong> The following accessories are available only through the in-game store and <strong>cannot be traded</strong> between players: <strong>Makeup Kit</strong>, <strong>Toolbelt</strong>, and <strong>Exoskeletons</strong>.
-  </div>
 </div>
 
 <!-- ==================== MACHINES PAGE ==================== -->
