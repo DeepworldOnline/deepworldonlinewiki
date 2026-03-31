@@ -1072,3 +1072,45 @@ a:hover { color: var(--link-hover); text-shadow: 0 0 8px rgba(255, 204, 68, 0.4)
   box-shadow: 0 0 40px rgba(200, 149, 42, 0.4);
   background: #1a0e06;
 }
+
+/* ===== MOB GRID ===== */
+.mob-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 20px 0;
+}
+.mob-card {
+  background: #2a1a0a;
+  border: 1px solid #5a3c10;
+  padding: 12px;
+  text-align: center;
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+.mob-card:hover {
+  border-color: #c8952a;
+}
+.mob-card img {
+  max-height: 150px;
+  width: auto;
+  max-width: 100%;
+  image-rendering: auto;
+  cursor: zoom-in;
+}
+.mob-card .mob-card-name {
+  color: #e8a020;
+  font-family: 'Telegrama', monospace;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+@media (max-width: 900px) {
+  .mob-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .mob-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
